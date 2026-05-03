@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.2f1 (a9779f353c9b) revision 11106207'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo" at "2026-04-30T09:28:32.8391839Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo" at "2026-05-03T22:30:20.1860178Z"
 OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'es' Physical Memory: 32716 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-04-30T09:28:32Z
+Date: 2026-05-03T22:30:20Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ B:/Clase/ProyectoUnityAudio/Audio_Unity
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-56925
+62475
 -licensingIpc
 LicenseClient-victo
 -job-worker-count
@@ -65,14 +65,14 @@ B:/Clase/ProyectoUnityAudio/Audio_Unity
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [26672]  Target information:
+Player connection [22492]  Target information:
 
-Player connection [26672]  * "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 4294167230 [EditorId] 4294167230 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22492]  * "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 307103686 [EditorId] 307103686 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26672]  * "[IP] 172.24.176.1 [Port] 0 [Flags] 2 [Guid] 4294167230 [EditorId] 4294167230 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22492]  * "[IP] 172.24.176.1 [Port] 0 [Flags] 2 [Guid] 307103686 [EditorId] 307103686 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26672] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26672] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22492] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22492] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.2f1 (a9779f353c9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -100,7 +100,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -108,14 +108,14 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/E
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              ab5589ef41e84b18abd5f19ee983b03b
-  Correlation Id:          9b0c010a53056dd0d5302a5696583203
-  External correlation Id: 4260255797447679015
+  Session Id:              9091ba9c533242cf97a8cc82278aadd3
+  Correlation Id:          b6308d13bd4df992b1a8c07a0cc064bf
+  External correlation Id: 3767992794950939278
   Machine Id:              QMr05shRFa1wtlgs+6uLKGQOFKQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-victo" (connect: 0.00s, validation: 0.00s, handshake: 1.37s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo-notifications" at "2026-04-30T09:28:34.2139419Z"
-[Licensing::Module] Licensing Background thread has ended after 1.38s
-[Licensing::Module] Licensing is initialized (took 0.41s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-victo" (connect: 0.00s, validation: 0.00s, handshake: 1.81s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo-notifications" at "2026-05-03T22:30:21.9964587Z"
+[Licensing::Module] Licensing Background thread has ended after 1.81s
+[Licensing::Module] Licensing is initialized (took 0.57s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-VBA2-JV43-3YNR-YA9F-XXXX
@@ -128,41 +128,41 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/E
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.413946 seconds.
-- Loaded All Assemblies, in  0.875 seconds
+Registered in 0.578909 seconds.
+- Loaded All Assemblies, in  1.162 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.428 seconds
-Domain Reload Profiling: 1300ms
-	BeginReloadAssembly (158ms)
+- Finished resetting the current domain, in  0.551 seconds
+Domain Reload Profiling: 1708ms
+	BeginReloadAssembly (199ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
+	RebuildCommonClasses (55ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (464ms)
-	LoadAllAssembliesAndSetupDomain (190ms)
-		LoadAssemblies (153ms)
+	initialDomainReloadingComplete (638ms)
+	LoadAllAssembliesAndSetupDomain (250ms)
+		LoadAssemblies (192ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (186ms)
-			TypeCache.Refresh (184ms)
-				TypeCache.ScanAssembly (169ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (225ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (429ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (551ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (391ms)
+		SetupLoadedEditorAssemblies (491ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (59ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (158ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -182,8 +182,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.725 seconds
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.943 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -192,46 +192,1908 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.647 seconds
-Domain Reload Profiling: 1369ms
-	BeginReloadAssembly (200ms)
+- Finished resetting the current domain, in  0.837 seconds
+Domain Reload Profiling: 1775ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (545ms)
+		LoadAssemblies (439ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (205ms)
+				TypeCache.ScanAssembly (188ms)
+			BuildScriptInfoCaches (33ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (838ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (684ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (192ms)
+			ProcessInitializeOnLoadAttributes (421ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3869 unused Assets / (1.3 MB). Loaded Objects now: 4452.
+Memory consumption went from 93.4 MB to 92.1 MB.
+Total: 10.381500 ms (FindLiveObjects: 0.887900 ms CreateObjectMapping: 0.209000 ms MarkObjects: 6.738300 ms  DeleteObjects: 2.544600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 363363.514751 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-197_comp_dir.png
+  artifactKey: Guid(1b0dca4dafddb4df19a982a66b881933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-197_comp_dir.png using Guid(1b0dca4dafddb4df19a982a66b881933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c52fe7f8fac60c62bb4150b6acd575fb') in 0.1391449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2.unity
+  artifactKey: Guid(de41685b0637c4ac4a14a5038db2e256) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2.unity using Guid(de41685b0637c4ac4a14a5038db2e256) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e007a29104543ca289baaf5a58634fd3') in 0.1303884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-403_comp_dir.png
+  artifactKey: Guid(b1805e7e6c3a34947b44a9d9cf8057cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-403_comp_dir.png using Guid(b1805e7e6c3a34947b44a9d9cf8057cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a86146da5d15a3cd6604899a117cf176') in 0.0113273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-26_comp_dir.png
+  artifactKey: Guid(e86e8c7c7077843738ce9e9933da29c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-26_comp_dir.png using Guid(e86e8c7c7077843738ce9e9933da29c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2241ee3afd05d1f97d2c1ea8e466cf6a') in 0.008988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-23_comp_light.exr
+  artifactKey: Guid(a86911ac3406847f58666f403246e342) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-23_comp_light.exr using Guid(a86911ac3406847f58666f403246e342) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d55125420893d354281f1a0f794fb88') in 0.011274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-333_comp_light.exr
+  artifactKey: Guid(d4ea4348059f943e08b36969114910a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-333_comp_light.exr using Guid(d4ea4348059f943e08b36969114910a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd19556f0990cf0c1a094682b6bc37d1') in 0.0102227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-220_comp_dir.png
+  artifactKey: Guid(8b6f6271df0014521908a5fd7bb00ef5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-220_comp_dir.png using Guid(8b6f6271df0014521908a5fd7bb00ef5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12f73cdb57f8eb93005b97b0c2a8f81b') in 0.0091843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-377_comp_light.exr
+  artifactKey: Guid(abd76f44335f147c4baf0719294881e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-377_comp_light.exr using Guid(abd76f44335f147c4baf0719294881e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '951242c0cc81b0b037d0e4a2af204f8a') in 0.0098938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-163_comp_light.exr
+  artifactKey: Guid(7e600135867c7416d84b22cf8aac1dd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-163_comp_light.exr using Guid(7e600135867c7416d84b22cf8aac1dd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b07a57606068cd5c70ddba73274bb2c4') in 0.0102516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-12_comp_dir.png
+  artifactKey: Guid(2cc7541f1074d4ffbbb1e38cd450e5f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-12_comp_dir.png using Guid(2cc7541f1074d4ffbbb1e38cd450e5f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3000c05df5b036390d2f06fafda0edbb') in 0.0091679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-76_comp_dir.png
+  artifactKey: Guid(c7aa04a09b47e43a19e67cfc372b19a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-76_comp_dir.png using Guid(c7aa04a09b47e43a19e67cfc372b19a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a13fe1fa91aa53e39d37b2750e8c27d') in 0.0100194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-339_comp_light.exr
+  artifactKey: Guid(f86abbae5939f439b985955569d237ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-339_comp_light.exr using Guid(f86abbae5939f439b985955569d237ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ecaa62952754e4b5ae22b81b6517b259') in 0.0109485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-264_comp_dir.png
+  artifactKey: Guid(152584b39ee8842a0aaa1a8e96703d3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-264_comp_dir.png using Guid(152584b39ee8842a0aaa1a8e96703d3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8cec23ac3db9773d76ca0b2162718473') in 0.0091224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-368_comp_light.exr
+  artifactKey: Guid(6d80e6eae10de4f078a3d1c798756ea4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-368_comp_light.exr using Guid(6d80e6eae10de4f078a3d1c798756ea4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb2b0bc5f2b4d59880665ecf66876def') in 0.0091369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-292_comp_dir.png
+  artifactKey: Guid(a1faa20f8b87848cf976f35e74d617d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-292_comp_dir.png using Guid(a1faa20f8b87848cf976f35e74d617d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7bf041c8849003fb590b4095dc1e3707') in 0.0096039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-260_comp_light.exr
+  artifactKey: Guid(918c0d9b945094a28a2205d9b687390b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-260_comp_light.exr using Guid(918c0d9b945094a28a2205d9b687390b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ac05bd43e302eed5874850848e2490c') in 0.0119743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-202_comp_dir.png
+  artifactKey: Guid(1b1f8b4d6470b4b5b9d3b98a4c81b676) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-202_comp_dir.png using Guid(1b1f8b4d6470b4b5b9d3b98a4c81b676) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '920e6d9e1253a5f86b604f98643adc0e') in 0.0110298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-387_comp_light.exr
+  artifactKey: Guid(cdac53668ab7943cc9f57f1407527a10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-387_comp_light.exr using Guid(cdac53668ab7943cc9f57f1407527a10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '909a4874c42adaa7f7463f8bc38a3eee') in 0.0102304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-255_comp_light.exr
+  artifactKey: Guid(7303133d4a580437f9a271be44708a7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-255_comp_light.exr using Guid(7303133d4a580437f9a271be44708a7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dabe4b0fb9dec0b04f862cb5079c4b53') in 0.0116561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/ReflectionProbe-1.exr
+  artifactKey: Guid(f52a370eb3f3740f0b9384ea04ee8428) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/ReflectionProbe-1.exr using Guid(f52a370eb3f3740f0b9384ea04ee8428) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5568cab98455d2365385550a39fd3b61') in 0.0138316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-222_comp_light.exr
+  artifactKey: Guid(307dbd06553344004996a74a5dbc8b13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-222_comp_light.exr using Guid(307dbd06553344004996a74a5dbc8b13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '119e7da6cbc023101fda1de889784fc3') in 0.010863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Demo Scripts/PCMToggle.cs
+  artifactKey: Guid(631e4df2b0edd43e8aa20da6246fa4d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Demo Scripts/PCMToggle.cs using Guid(631e4df2b0edd43e8aa20da6246fa4d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e599d0287de44caf8a2e84d55acdcd1f') in 0.0133245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-210_comp_light.exr
+  artifactKey: Guid(984de52be3c1b4d1f84f872ac2f0ca43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-210_comp_light.exr using Guid(984de52be3c1b4d1f84f872ac2f0ca43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4759f8c94166e4a6ce14ac22fd80ef14') in 0.0134383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-32_comp_dir.png
+  artifactKey: Guid(da83226c4e04c43a097f92fc22ee3efa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-32_comp_dir.png using Guid(da83226c4e04c43a097f92fc22ee3efa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8e0ef975dad0cf26ef9c630f589ccd5') in 0.0114841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-282_comp_dir.png
+  artifactKey: Guid(6a91792aa3085482e8330b718d5282cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-282_comp_dir.png using Guid(6a91792aa3085482e8330b718d5282cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b3ef50631ab8f74988e1d256230206d') in 0.011277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-205_comp_dir.png
+  artifactKey: Guid(b7d2af6c8fbb14590a46086c62275637) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-205_comp_dir.png using Guid(b7d2af6c8fbb14590a46086c62275637) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c58048b689c70441721bcc5999a9bda8') in 0.0106227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-213_comp_dir.png
+  artifactKey: Guid(6abea20d773fe444584dca4d4949c382) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-213_comp_dir.png using Guid(6abea20d773fe444584dca4d4949c382) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '982ad13818457684d25c0793218535bf') in 0.0117645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-103_comp_light.exr
+  artifactKey: Guid(1edc05749cb954d13be3ec16cd41bbbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-103_comp_light.exr using Guid(1edc05749cb954d13be3ec16cd41bbbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '804994333036d7d8732f9b8d96ed413d') in 0.0106541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-59_comp_dir.png
+  artifactKey: Guid(2eea193035ad942f1a826917036e4109) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-59_comp_dir.png using Guid(2eea193035ad942f1a826917036e4109) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ef1e7e76c1a16fa368b14a13fdfb268') in 0.0117732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-191_comp_dir.png
+  artifactKey: Guid(a5cb28ca89a50432594c62a770ee968e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-191_comp_dir.png using Guid(a5cb28ca89a50432594c62a770ee968e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a54cfac2730c7913f0d4ec76d73a9c9c') in 0.0118397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-239_comp_light.exr
+  artifactKey: Guid(f735d0896c72741bcb6e5cf5b7579ba9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-239_comp_light.exr using Guid(f735d0896c72741bcb6e5cf5b7579ba9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d45a4947d6a1de25d705361cc5de58c') in 0.0129398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-3_comp_light.exr
+  artifactKey: Guid(fa76f90c427be40ee9b92818b4ac52d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-3_comp_light.exr using Guid(fa76f90c427be40ee9b92818b4ac52d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c65d9e57d01e26eb45ce495dba1c778') in 0.0105831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-140_comp_dir.png
+  artifactKey: Guid(ae8a5f911e4aa4852a40d030b5e4e565) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-140_comp_dir.png using Guid(ae8a5f911e4aa4852a40d030b5e4e565) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4843651552d505608842658fa0e12d94') in 0.0119332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-210_comp_dir.png
+  artifactKey: Guid(aebfbabc74c5a41c28059ccc1dedfacc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-210_comp_dir.png using Guid(aebfbabc74c5a41c28059ccc1dedfacc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76b2b76be9f0f6b82ee98fd4fa6561e6') in 0.0116482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_17.prefab
+  artifactKey: Guid(923bc4b85f5f14e66b5c2183de6b5a61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_17.prefab using Guid(923bc4b85f5f14e66b5c2183de6b5a61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1db6e46240d2947a2d4bd9422bf2a653') in 0.0665731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-405_comp_light.exr
+  artifactKey: Guid(58babfc2f0cf04b5283cf98993132858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-405_comp_light.exr using Guid(58babfc2f0cf04b5283cf98993132858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f0dbe878f27d8b8b4680ce4d2dedb22') in 0.0097025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-363_comp_dir.png
+  artifactKey: Guid(e8684c9cd7bc7489291ea4d4042c0f85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-363_comp_dir.png using Guid(e8684c9cd7bc7489291ea4d4042c0f85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a90b7480906808b8f73b153736c4ec3f') in 0.0109446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-119_comp_light.exr
+  artifactKey: Guid(08ea0780e799e4036be380498740d8a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-119_comp_light.exr using Guid(08ea0780e799e4036be380498740d8a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae191274883de8118d092804a2a7a26d') in 0.0115172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-5_comp_dir.png
+  artifactKey: Guid(ffbf1bfd7137b40dfbf91fa5eee701c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-5_comp_dir.png using Guid(ffbf1bfd7137b40dfbf91fa5eee701c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02d73ce43798faf8ff9a1f906fcedebe') in 0.0119066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-184_comp_light.exr
+  artifactKey: Guid(4abd084704e63450aa9f9a495c8ad1b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-184_comp_light.exr using Guid(4abd084704e63450aa9f9a495c8ad1b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b349f2cd65bba2f3743b25c3276ee3e') in 0.0104205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-375_comp_dir.png
+  artifactKey: Guid(f2c2b1b2854174f8d8d5aa9e68a5bb37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-375_comp_dir.png using Guid(f2c2b1b2854174f8d8d5aa9e68a5bb37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62b919de11741f015f2bc945867b223c') in 0.0107926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-182_comp_dir.png
+  artifactKey: Guid(6e2bbe42849214c10bdb3dd49b347fe4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-182_comp_dir.png using Guid(6e2bbe42849214c10bdb3dd49b347fe4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e3e46fafbe27014c6107a14ffe36250') in 0.0115207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-251_comp_light.exr
+  artifactKey: Guid(e13dc8c6e45334a0da9c977e4b99d54d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-251_comp_light.exr using Guid(e13dc8c6e45334a0da9c977e4b99d54d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5251d9ee20644d6c948623aaefc84095') in 0.0106332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-232_comp_light.exr
+  artifactKey: Guid(d94b2d6964c3c45e29fef41eb4ef5efc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-232_comp_light.exr using Guid(d94b2d6964c3c45e29fef41eb4ef5efc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2bca9bcda84b65ae2d3c612bf6af67d6') in 0.0103721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-394_comp_dir.png
+  artifactKey: Guid(4fd1122cccc244db39d7cc6fa08ead30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-394_comp_dir.png using Guid(4fd1122cccc244db39d7cc6fa08ead30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79b9d20dac6093864bd0dafc8fd2f998') in 0.0113708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-338_comp_light.exr
+  artifactKey: Guid(e6645d71f3eb44df3b50ea24d53fe137) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-338_comp_light.exr using Guid(e6645d71f3eb44df3b50ea24d53fe137) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '128be15e52e96e4c0800e5f8c574d8b1') in 0.012412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-225_comp_dir.png
+  artifactKey: Guid(3d3a4be49f9524c41bc543d794a16671) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-225_comp_dir.png using Guid(3d3a4be49f9524c41bc543d794a16671) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83feb93d869efffe900aa8fb7a56ad65') in 0.01027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-188_comp_light.exr
+  artifactKey: Guid(2ff24f689a04544698c094bae355964a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-188_comp_light.exr using Guid(2ff24f689a04544698c094bae355964a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d9f68da521622355762d449209b4053') in 0.0088728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-27_comp_dir.png
+  artifactKey: Guid(9667c48591b564cc08651c9efce624b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-27_comp_dir.png using Guid(9667c48591b564cc08651c9efce624b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '394ffe02b4c6a08a1c5ac3efe2f739c3') in 0.0106092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-196_comp_light.exr
+  artifactKey: Guid(869d07d7defe948ceb476ef439ceb651) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-196_comp_light.exr using Guid(869d07d7defe948ceb476ef439ceb651) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55290bb383d7d7eab53c76f8c7d47cf4') in 0.0122594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-117_comp_dir.png
+  artifactKey: Guid(0bf994e907be74b1b97a40f2ce251ba5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-117_comp_dir.png using Guid(0bf994e907be74b1b97a40f2ce251ba5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d87f55f0b40169e0fd38f285afec91d') in 0.009745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-15_comp_light.exr
+  artifactKey: Guid(c8c7631cb1f22426899b0a147523dfa7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-15_comp_light.exr using Guid(c8c7631cb1f22426899b0a147523dfa7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a9472911c45ffa18a0453a93ff5ac66d') in 0.011359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-385_comp_light.exr
+  artifactKey: Guid(cc88690a49fe246b4b0a7d1aa2290966) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-385_comp_light.exr using Guid(cc88690a49fe246b4b0a7d1aa2290966) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '81aa66cb0aa4c5aa6ce172b33a3ae7a9') in 0.010041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-362_comp_dir.png
+  artifactKey: Guid(1a9706c8fe40746078d60af6a11396d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-362_comp_dir.png using Guid(1a9706c8fe40746078d60af6a11396d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a62d87f679fa084623396ab38b1aa19') in 0.0103894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-33_comp_light.exr
+  artifactKey: Guid(2248cc64758cd43d79eb50970420472a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-33_comp_light.exr using Guid(2248cc64758cd43d79eb50970420472a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4202ec5b734ed3d58b3051c3103edd4') in 0.0108909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-324_comp_light.exr
+  artifactKey: Guid(30196438f621842dea54aa09f2b0143c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-324_comp_light.exr using Guid(30196438f621842dea54aa09f2b0143c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4394015abae6c201b8a08457cdc866d') in 0.0116754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-208_comp_dir.png
+  artifactKey: Guid(591df1fc9f53e4d2d8e63e0268f7a3e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-208_comp_dir.png using Guid(591df1fc9f53e4d2d8e63e0268f7a3e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b65a2a3d0060c98552251a8944504535') in 0.1532749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_12.asset
+  artifactKey: Guid(bc2b3a0dcecd24e30be34a89ead53f97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_12.asset using Guid(bc2b3a0dcecd24e30be34a89ead53f97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ea206887da306a921cacbc422e43682') in 0.064649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.249595 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Demo Scripts/Camera Dolly.prefab
+  artifactKey: Guid(c890e5ef7bbff4064aa5704889bb3f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Demo Scripts/Camera Dolly.prefab using Guid(c890e5ef7bbff4064aa5704889bb3f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35244f4676d56282414d62c4fc1a3733') in 0.0284557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_03.prefab
+  artifactKey: Guid(56feb7a3c20f24b6b8c067969f41c190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_03.prefab using Guid(56feb7a3c20f24b6b8c067969f41c190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a5d336f21cfb7a5a1b926111455bce1') in 0.0604326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_10.prefab
+  artifactKey: Guid(ae886a7a92b5f4077891ee5f0e9e9eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_10.prefab using Guid(ae886a7a92b5f4077891ee5f0e9e9eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1fa86f3d12e256a5c5431b21fc63cd9') in 0.0430357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_05.prefab
+  artifactKey: Guid(70507c11162754b0e97939bda281fcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_05.prefab using Guid(70507c11162754b0e97939bda281fcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '087797392fed8cee1b26cb84c04bd8a9') in 0.0368462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_06.prefab
+  artifactKey: Guid(420514be07e5c406ab77678bb40d3a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_06.prefab using Guid(420514be07e5c406ab77678bb40d3a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bcef05293d283b5f4c1d6e6e3278704') in 0.0431523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_04.prefab
+  artifactKey: Guid(67762c60f6bac4107908ffd1193c7f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_04.prefab using Guid(67762c60f6bac4107908ffd1193c7f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8d3d056d791c6909505244ab969dc3d') in 0.0449078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Ground_Mesh.fbx
+  artifactKey: Guid(aa38d7b0e367ecc4aac915dcfe957879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Ground_Mesh.fbx using Guid(aa38d7b0e367ecc4aac915dcfe957879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e558ff4dd79f6de66565b1a55e8c51ab') in 0.0798022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.303874 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_15.prefab
+  artifactKey: Guid(9ae840144374f4edd95576a469c01ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_15.prefab using Guid(9ae840144374f4edd95576a469c01ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fd1aa61782f5eb47b7ef261dea60144') in 0.0272149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.303617 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_20.prefab
+  artifactKey: Guid(dd47e7ae6b5fb41159f6190e74405afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_20.prefab using Guid(dd47e7ae6b5fb41159f6190e74405afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eed4fd3f734767921cf6626b3eab965e') in 0.0149703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040483 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_25.prefab
+  artifactKey: Guid(6effbb1e166614530b63d1d9c2150ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Real Ivy/Ivy_Demo2_25.prefab using Guid(6effbb1e166614530b63d1d9c2150ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6d7f4e946bf2d1b359b8f0bc3da6d70') in 0.0261657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028095 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_N.anim.fbx
+  artifactKey: Guid(16114d403eabb53438de032c6f0d1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_N.anim.fbx using Guid(16114d403eabb53438de032c6f0d1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8afd54c0bed9bf083a4e4a5a5330ffa9') in 0.0043734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.450393 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx
+  artifactKey: Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx using Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f78f007530cb101774fdae0609bba614') in 0.0401946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.922170 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-1_comp_dir.png
+  artifactKey: Guid(a385d3125639e40cbadaf7f8e8b71e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-1_comp_dir.png using Guid(a385d3125639e40cbadaf7f8e8b71e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a778266a9b3c6e6740025c9a1b07cf2') in 0.0187492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-9_comp_dir.png
+  artifactKey: Guid(8a2362fe1115a4d6fb5673a82fdf1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-9_comp_dir.png using Guid(8a2362fe1115a4d6fb5673a82fdf1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c10c83ef2807b38ba80c9b54702d93d4') in 0.0086576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-19_comp_light.exr
+  artifactKey: Guid(50910e11f05874ea9a29ddab6cdcaf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-19_comp_light.exr using Guid(50910e11f05874ea9a29ddab6cdcaf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '731cefe210e3ef24f16517b1caeac810') in 0.015276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-29_comp_dir.png
+  artifactKey: Guid(76a6f00383c724fc4b44c47b23642c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-29_comp_dir.png using Guid(76a6f00383c724fc4b44c47b23642c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d1ab1e0c9043e2f4f5247d4c653fab2') in 0.0116199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-22_comp_light.exr
+  artifactKey: Guid(ac6c61b5471e14c95b11b2262855d40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-22_comp_light.exr using Guid(ac6c61b5471e14c95b11b2262855d40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7119ec93f844acd08a05977ecd13a560') in 0.0138786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-2_comp_light.exr
+  artifactKey: Guid(48f6365f0da7c41c0887241e244cbbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-2_comp_light.exr using Guid(48f6365f0da7c41c0887241e244cbbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62e83a81492cb2724c6beaa2abafcdd6') in 0.0139264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-24_comp_light.exr
+  artifactKey: Guid(e03cc404934e74b979b88c2a3fb2db40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-24_comp_light.exr using Guid(e03cc404934e74b979b88c2a3fb2db40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5710d96bb55cf0a43ecfcafd028ed9b3') in 0.009919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-17_comp_dir.png
+  artifactKey: Guid(d6d349073d4c94f008725679c79cd247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-17_comp_dir.png using Guid(d6d349073d4c94f008725679c79cd247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1496049e82f883d8fbd9b16d83c95856') in 0.0223835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-25_comp_light.exr
+  artifactKey: Guid(004b21a30f29d45da994bbad82149d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-25_comp_light.exr using Guid(004b21a30f29d45da994bbad82149d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ade89ed6a984606217710df842542568') in 0.0178804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-22_comp_dir.png
+  artifactKey: Guid(c413554f739d143cfb15f1c073d0cf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-22_comp_dir.png using Guid(c413554f739d143cfb15f1c073d0cf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1327ac8415032e60a6e01755542ca60b') in 0.0142665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-8_comp_dir.png
+  artifactKey: Guid(17717ec8b80f94fd08d1268eac83116b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-8_comp_dir.png using Guid(17717ec8b80f94fd08d1268eac83116b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '196f76812a56ced24357ce2689ce78f9') in 0.016339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-5_comp_light.exr
+  artifactKey: Guid(867a15aa93aab4a6580057cc4414cbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-5_comp_light.exr using Guid(867a15aa93aab4a6580057cc4414cbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d9795bf9ce47dff2078397576883914') in 0.0113572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-16_comp_dir.png
+  artifactKey: Guid(086a7f6a23c134e8098e8d2c1fd6de5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-16_comp_dir.png using Guid(086a7f6a23c134e8098e8d2c1fd6de5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2c07dd979e0cc9d296891f149b29bed') in 0.0094803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-26_comp_dir.png
+  artifactKey: Guid(e86e8c7c7077843738ce9e9933da29c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-26_comp_dir.png using Guid(e86e8c7c7077843738ce9e9933da29c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c358fdc8983a2fed34a6dd4774bee64') in 0.0086286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-4_comp_dir.png
+  artifactKey: Guid(b7f6b549515da4d6595415d6bbedadf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-4_comp_dir.png using Guid(b7f6b549515da4d6595415d6bbedadf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aba1811111cf308665dbfcd1c8fa7f31') in 0.0108986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-25_comp_dir.png
+  artifactKey: Guid(061b486dc0eab4caaaef95be42e34593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-25_comp_dir.png using Guid(061b486dc0eab4caaaef95be42e34593) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75fbc108048283606894720608529110') in 0.0097024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-27_comp_dir.png
+  artifactKey: Guid(9667c48591b564cc08651c9efce624b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-27_comp_dir.png using Guid(9667c48591b564cc08651c9efce624b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da8719529dbcee06762f3a9befde698e') in 0.0116265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-10_comp_light.exr
+  artifactKey: Guid(f231abd91c352451fab0fdf783e7b875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-10_comp_light.exr using Guid(f231abd91c352451fab0fdf783e7b875) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d6d3c9ab213dcba9ef1fb1f2c711f58') in 0.0081161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-13_comp_dir.png
+  artifactKey: Guid(d96b6add9a4324ea1a41715186561ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-13_comp_dir.png using Guid(d96b6add9a4324ea1a41715186561ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed4b97ce109d23979fc9f2eeb69b8145') in 0.0121122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-23_comp_dir.png
+  artifactKey: Guid(23b6fdf2efab7467a82faf300b010ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-23_comp_dir.png using Guid(23b6fdf2efab7467a82faf300b010ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9500e9c34d87b2441a6c263c31a1a19') in 0.0133184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-19_comp_dir.png
+  artifactKey: Guid(bb6ea32ae46ef4f69b86aa45f57da15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment Pack/Medieval Environment Demo/Lightmap-19_comp_dir.png using Guid(bb6ea32ae46ef4f69b86aa45f57da15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '395505a662785c894c856fde681b964d') in 0.012084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.029962 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Lightmap-1_comp_dir.png
+  artifactKey: Guid(06d18812cabfd41b6a9940fca171a00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Lightmap-1_comp_dir.png using Guid(06d18812cabfd41b6a9940fca171a00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b24e7683719184133b831fe7e0d0ea6c') in 0.0086247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Lightmap-9_comp_light.exr
+  artifactKey: Guid(c686f6693e3c44438aeab45fecd8e6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Lightmap-9_comp_light.exr using Guid(c686f6693e3c44438aeab45fecd8e6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c7336872c4d907e1008612b10fdab6c') in 0.012867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Lightmap-8_comp_dir.png
+  artifactKey: Guid(d4abf125eabbb4d07a238341592c8f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Lightmap-8_comp_dir.png using Guid(d4abf125eabbb4d07a238341592c8f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '291f075051b838fb5fae9b1c5bfba692') in 0.0145261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Lightmap-2_comp_dir.png
+  artifactKey: Guid(54eb1551547a44f88a3d575c111fd982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Lightmap-2_comp_dir.png using Guid(54eb1551547a44f88a3d575c111fd982) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a8ba9e47ee998c99c2e251ff52aa35e') in 0.0141607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/M_road_border_InfinityPBR_01.mat
+  artifactKey: Guid(2407ab2d77f7842e882740f3410be32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/M_road_border_InfinityPBR_01.mat using Guid(2407ab2d77f7842e882740f3410be32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bc2b557035f9e09603cc6b884294a18') in 0.0093713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Lightmap-7_comp_light.exr
+  artifactKey: Guid(203fc079b9a29442fbb6f916faa15670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Lightmap-7_comp_light.exr using Guid(203fc079b9a29442fbb6f916faa15670) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8454cee88b4dd6f55bd639b31c53c60e') in 0.0153975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Lightmap-6_comp_dir.png
+  artifactKey: Guid(9c95ff269da7041639dadab26375b225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Lightmap-6_comp_dir.png using Guid(9c95ff269da7041639dadab26375b225) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90b6e7245d87da304edb31e8c35962a9') in 0.0136484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Lightmap-1_comp_light.exr
+  artifactKey: Guid(df6797a0b96194db9a0c2e1cad98c7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Lightmap-1_comp_light.exr using Guid(df6797a0b96194db9a0c2e1cad98c7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '440193ee8692c575ce0d6735c4982f4d') in 0.012565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Skybox.mat
+  artifactKey: Guid(d5af4eed5b5b841e0902aa9225bb7557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Pig Games (Infinity PBR)/Medieval Environment Pack/_Demo Scenes/Medieval Environment - Demo 2/Skybox.mat using Guid(d5af4eed5b5b841e0902aa9225bb7557) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae7adb937c31500c561d8659e46305ab') in 0.087676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3857 unused Assets / (0.9 MB). Loaded Objects now: 4498.
+Memory consumption went from 95.0 MB to 94.1 MB.
+Total: 10.954100 ms (FindLiveObjects: 0.932600 ms CreateObjectMapping: 0.264700 ms MarkObjects: 8.325700 ms  DeleteObjects: 1.428800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-VBA2-JV43-3YNR-YA9F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6871962646222-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.791 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.023 seconds
+Domain Reload Profiling: 1812ms
+	BeginReloadAssembly (264ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (418ms)
-		LoadAssemblies (329ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (431ms)
+		LoadAssemblies (404ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (203ms)
-			TypeCache.Refresh (166ms)
-				TypeCache.ScanAssembly (153ms)
-			BuildScriptInfoCaches (28ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (647ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (142ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1023ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (528ms)
+		SetupLoadedEditorAssemblies (893ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (339ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (672ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3873 unused Assets / (1.1 MB). Loaded Objects now: 4454.
-Memory consumption went from 92.6 MB to 91.5 MB.
-Total: 7.966200 ms (FindLiveObjects: 0.609000 ms CreateObjectMapping: 0.166800 ms MarkObjects: 5.977600 ms  DeleteObjects: 1.211200 ms)
+Unloading 3863 unused Assets / (1.0 MB). Loaded Objects now: 4499.
+Memory consumption went from 95.6 MB to 94.6 MB.
+Total: 7.199400 ms (FindLiveObjects: 0.633400 ms CreateObjectMapping: 0.162200 ms MarkObjects: 5.301700 ms  DeleteObjects: 1.100300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-VBA2-JV43-3YNR-YA9F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6871962646222-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.738 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 1386ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (339ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (649ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (524ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3872 unused Assets / (3.1 MB). Loaded Objects now: 4508.
+Memory consumption went from 97.8 MB to 94.7 MB.
+Total: 8.762200 ms (FindLiveObjects: 0.612900 ms CreateObjectMapping: 0.158600 ms MarkObjects: 5.082600 ms  DeleteObjects: 2.906200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 271.368315 seconds.
+  path: Assets/Old Sea Port/Materials/Bark_Grey_Shiny.mat
+  artifactKey: Guid(76b27126339d3d041b24024587f42d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/Materials/Bark_Grey_Shiny.mat using Guid(76b27126339d3d041b24024587f42d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6764e5384face70245a6a5f7007cb12a') in 0.0954096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Old Sea Port/Materials/Cobblestone_Shiny.mat
+  artifactKey: Guid(b5ccf7076bf73e541a3e23897a2a3092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/Materials/Cobblestone_Shiny.mat using Guid(b5ccf7076bf73e541a3e23897a2a3092) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9adc81813a4a76be6120d15454e3452c') in 0.2029296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Old Sea Port/Materials/fence.mat
+  artifactKey: Guid(7a10401e119458544b269a24e3893073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/Materials/fence.mat using Guid(7a10401e119458544b269a24e3893073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cfd59b15b0717ea60ace6b10e4e5726') in 0.2486953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Old Sea Port/Materials/planks_shiny.mat
+  artifactKey: Guid(d856bef9752f4b94792d16ec0dfbaa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/Materials/planks_shiny.mat using Guid(d856bef9752f4b94792d16ec0dfbaa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6416d8e041d68243490dcf511448a1e') in 0.0214627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Old Sea Port/Materials/Canvas.mat
+  artifactKey: Guid(c9d71860ce2bd034b995e445a324944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/Materials/Canvas.mat using Guid(c9d71860ce2bd034b995e445a324944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b68f56ab68ff8467fcc2ce8ebb87078c') in 0.2179755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Old Sea Port/Materials/Log_End_Shiny.mat
+  artifactKey: Guid(257e47870a41c144f895fd29184b1517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/Materials/Log_End_Shiny.mat using Guid(257e47870a41c144f895fd29184b1517) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ab3e176f1316b313f64e433bab10f1a') in 0.0210957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Old Sea Port/Materials/Lamp_Glow.mat
+  artifactKey: Guid(1390211c9809f914885aed46ca9f638b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/Materials/Lamp_Glow.mat using Guid(1390211c9809f914885aed46ca9f638b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba14c7b0722c3e3dc6e33283741b0d38') in 0.0994534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Old Sea Port/Materials/maple_leaves.mat
+  artifactKey: Guid(c0fa5e353eba45741a90fe6de147e112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/Materials/maple_leaves.mat using Guid(c0fa5e353eba45741a90fe6de147e112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c90488bdd44ca2555c0eb077ec7bbf0') in 0.2069039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Old Sea Port/Materials/SkyEerie.mat
+  artifactKey: Guid(fa231042141b62943bf62a7eec685939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/Materials/SkyEerie.mat using Guid(fa231042141b62943bf62a7eec685939) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56261bc389a85c400c5030f3d21ffbd4') in 0.1954081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.701986 seconds.
+  path: Assets/Old Sea Port/mesh/boat_1.fbx
+  artifactKey: Guid(b28782be19c0382489f049a8c11e11ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/boat_1.fbx using Guid(b28782be19c0382489f049a8c11e11ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b6c71af7572458db22e25cc14256b3e') in 0.0354142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Old Sea Port/mesh/post_2.fbx
+  artifactKey: Guid(188259caed4c91d4fa37496fab8084ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/post_2.fbx using Guid(188259caed4c91d4fa37496fab8084ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e7e419641d8825ffa499df8788a7751') in 0.010294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Old Sea Port/mesh/post_1.fbx
+  artifactKey: Guid(8b50be6bc899b9140ad8ff1a5d587a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/post_1.fbx using Guid(8b50be6bc899b9140ad8ff1a5d587a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6070e0c8a3278bad193e25138119246') in 0.0116824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Old Sea Port/mesh/hammer.fbx
+  artifactKey: Guid(cfd984fc4f7f10c4eb63402c8dc759a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/hammer.fbx using Guid(cfd984fc4f7f10c4eb63402c8dc759a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1013d6c1276066bc9ba554e3019a4b80') in 0.0142583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Old Sea Port/mesh/tower_extension.fbx
+  artifactKey: Guid(69aa8b9d7d649a14b937cf6e269319c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/tower_extension.fbx using Guid(69aa8b9d7d649a14b937cf6e269319c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cfeb9be3e752dc933aa2559edb8271a') in 0.0108395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Old Sea Port/mesh/fireplace.fbx
+  artifactKey: Guid(5b668adf7e553bf47b208d001bca688b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/fireplace.fbx using Guid(5b668adf7e553bf47b208d001bca688b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28f25e6649f68085916bf75b6edb9bd9') in 0.0104091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Old Sea Port/mesh/bottle.fbx
+  artifactKey: Guid(d2e718e3487d65f4e982de3713b184a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/bottle.fbx using Guid(d2e718e3487d65f4e982de3713b184a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6378853708009560126ddf4f6fb3c478') in 0.01084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Old Sea Port/mesh/stairs_wood_spiral.fbx
+  artifactKey: Guid(a3983032df6f6a4498ab985c4088f21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/stairs_wood_spiral.fbx using Guid(a3983032df6f6a4498ab985c4088f21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '355e084e18df50c31889c0fc61fa3839') in 0.0226189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Old Sea Port/mesh/plank_1.fbx
+  artifactKey: Guid(e20a355c375c4bf4e8f782742812dcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/plank_1.fbx using Guid(e20a355c375c4bf4e8f782742812dcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e419e7f694668438f3f5099debdde19') in 0.0125941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Old Sea Port/mesh/building_segment_5.fbx
+  artifactKey: Guid(57c2463eb8525a342959a81e4db49b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/building_segment_5.fbx using Guid(57c2463eb8525a342959a81e4db49b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e58b0673e59abcbf7b96939117d5dbc') in 0.0130327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Old Sea Port/mesh/fence_gate.fbx
+  artifactKey: Guid(b2cfdd5ceba6f884e9553575bacbc921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/fence_gate.fbx using Guid(b2cfdd5ceba6f884e9553575bacbc921) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3237ec8bc301ffd7623735e5fa35d7c7') in 0.0104558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Old Sea Port/mesh/circular_table.fbx
+  artifactKey: Guid(74c5832b0954fd44d8cffe225158ceea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/circular_table.fbx using Guid(74c5832b0954fd44d8cffe225158ceea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '705c5c368a00d81a4252972cabaa1115') in 0.0117917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Old Sea Port/mesh/mooring_rope_holder_2.fbx
+  artifactKey: Guid(f74e57a5ad5640f4da5eb349ae178364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/mooring_rope_holder_2.fbx using Guid(f74e57a5ad5640f4da5eb349ae178364) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c68c0d190149700bcbe462e152af23fa') in 0.0265128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Old Sea Port/mesh/dock_2.fbx
+  artifactKey: Guid(96f68129d85fbc340987bf3fe5fb6079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/dock_2.fbx using Guid(96f68129d85fbc340987bf3fe5fb6079) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1f95598264e4ee64f75054778eff6d4') in 0.0271525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Old Sea Port/mesh/rope_3.fbx
+  artifactKey: Guid(cb1f6f82cc530a74c940352d001d34d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/rope_3.fbx using Guid(cb1f6f82cc530a74c940352d001d34d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afd964c259c52aead02a0d6aa730c440') in 0.0123328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Old Sea Port/mesh/building_segment_4.fbx
+  artifactKey: Guid(592baa9a80ff7844bbfcc133a0f63878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/building_segment_4.fbx using Guid(592baa9a80ff7844bbfcc133a0f63878) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04a98f6c254e0b9cdc96560c49eea452') in 0.0120272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Old Sea Port/mesh/fence_segment_1.fbx
+  artifactKey: Guid(ddbd88117fbb37149967fc59345bf64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/fence_segment_1.fbx using Guid(ddbd88117fbb37149967fc59345bf64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c90560e43859d2d8b1a0fec6453f100') in 0.0128175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Old Sea Port/mesh/mooring_rope_holder.fbx
+  artifactKey: Guid(2a6baaf4ee4ed4649a1c0c74be99a7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/mooring_rope_holder.fbx using Guid(2a6baaf4ee4ed4649a1c0c74be99a7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec56b951bbcb1a7841fab6cdb7af746d') in 0.0256069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Old Sea Port/mesh/crate_1.fbx
+  artifactKey: Guid(5be8634ccfcc74841a2130c8f8a656af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/crate_1.fbx using Guid(5be8634ccfcc74841a2130c8f8a656af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e474e912df9dcfa2f033e99208fe8655') in 0.0130257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Old Sea Port/mesh/brick_column_1.fbx
+  artifactKey: Guid(1db8014869e9de646abdb86a9b03073c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/brick_column_1.fbx using Guid(1db8014869e9de646abdb86a9b03073c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0acd971ec62ccd905c3fe050188f5990') in 0.0257424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Old Sea Port/mesh/lamp_1.fbx
+  artifactKey: Guid(4ab325a57b9cd6a4a937fc4a13fc2ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/lamp_1.fbx using Guid(4ab325a57b9cd6a4a937fc4a13fc2ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd86a7d344edc9b777b9fc63a3ed4433') in 0.0231327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.530711 seconds.
+  path: Assets/Old Sea Port/prefabs/boat_1.prefab
+  artifactKey: Guid(0297c1d9dc5137043b0bde39f96ff5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/boat_1.prefab using Guid(0297c1d9dc5137043b0bde39f96ff5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a21715f052aeffa236a22c2615e15766') in 0.0137043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Old Sea Port/prefabs/circular_table.prefab
+  artifactKey: Guid(31a710b3bcdfb2e48b5ba67995778c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/circular_table.prefab using Guid(31a710b3bcdfb2e48b5ba67995778c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e72eac66d48722295076ca88cccee53') in 0.0141168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Old Sea Port/prefabs/workbench.prefab
+  artifactKey: Guid(83d4bbd130e2b724fb288ed061442dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/workbench.prefab using Guid(83d4bbd130e2b724fb288ed061442dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f44f64aaced8ae670666c2d66441a1e4') in 0.0153656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Old Sea Port/prefabs/dock_2.prefab
+  artifactKey: Guid(60a7c2536ae44384a9181dd65cb6d107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/dock_2.prefab using Guid(60a7c2536ae44384a9181dd65cb6d107) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0494ee5b2dd0e51c901d778e18d4b822') in 0.2513575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Old Sea Port/prefabs/building_segment_1.prefab
+  artifactKey: Guid(287711fb95cdc004b814e53a055b4b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/building_segment_1.prefab using Guid(287711fb95cdc004b814e53a055b4b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df3d6bb6c08d7278b5dc1bce332392e3') in 0.0143197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Old Sea Port/prefabs/Log_1.prefab
+  artifactKey: Guid(d76a78a721a5d9d499abc8aec19fdc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/Log_1.prefab using Guid(d76a78a721a5d9d499abc8aec19fdc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9af4aecb8d23e4f33549dd65ddc93483') in 0.0206962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Old Sea Port/prefabs/building_segment_2.prefab
+  artifactKey: Guid(e2815925c4988c3438817c46d19d1b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/building_segment_2.prefab using Guid(e2815925c4988c3438817c46d19d1b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '283fe1567e7fd8fb2fd8899764fd6b52') in 0.0151006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Old Sea Port/prefabs/ladder_1.prefab
+  artifactKey: Guid(c5d5f1d29f2e94e45b0022124ff1f27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/ladder_1.prefab using Guid(c5d5f1d29f2e94e45b0022124ff1f27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cc559d748294ac5315365fcaf264f14') in 0.0178372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Old Sea Port/prefabs/tower_short.prefab
+  artifactKey: Guid(ad9456229c007a24ba9e3d21745ddb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/tower_short.prefab using Guid(ad9456229c007a24ba9e3d21745ddb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96b23416dd0bff670a094b17aa8c672d') in 0.0148559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Old Sea Port/prefabs/boat_2.prefab
+  artifactKey: Guid(827102f6dfdb671428e2504c7680aeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/boat_2.prefab using Guid(827102f6dfdb671428e2504c7680aeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72df48bc0f07894c66cf788a68cdae7c') in 0.0209811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Old Sea Port/prefabs/brick_tree_base.prefab
+  artifactKey: Guid(a5dfe91abe6cf084bb963f174722e6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/brick_tree_base.prefab using Guid(a5dfe91abe6cf084bb963f174722e6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '213e3ef4da1f4d8b59f2fd13f13556be') in 0.0175511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Old Sea Port/prefabs/post_1.prefab
+  artifactKey: Guid(5cf375f9208bd17468242e6d1c3cc819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/post_1.prefab using Guid(5cf375f9208bd17468242e6d1c3cc819) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f6e0f20932c41887f3dadc3497ad26b') in 0.0144972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Old Sea Port/prefabs/tower_extension.prefab
+  artifactKey: Guid(6ced61b88da889a4db169a27d5f9f634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/tower_extension.prefab using Guid(6ced61b88da889a4db169a27d5f9f634) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c78f122f488efc7ed2a80a8c063cf81') in 0.0156366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Old Sea Port/prefabs/Old Sea Port_Tree.prefab
+  artifactKey: Guid(060de24b039008143aa190133e1fb8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/Old Sea Port_Tree.prefab using Guid(060de24b039008143aa190133e1fb8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fec806411b3c327b01cb3cd49e9fdb4') in 0.0121207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Old Sea Port/prefabs/building_segment_6.prefab
+  artifactKey: Guid(7d609f7b85b8b834c967c9708aa167ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/building_segment_6.prefab using Guid(7d609f7b85b8b834c967c9708aa167ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8e1317a3a633b68efe2f518d091cdf0') in 0.0164163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Old Sea Port/prefabs/building_segment_3.prefab
+  artifactKey: Guid(dee3db12ee2f57c41af34c16d2fde197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/building_segment_3.prefab using Guid(dee3db12ee2f57c41af34c16d2fde197) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71ebd17d6831d744de5d9b4a1533536f') in 0.0169253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Old Sea Port/prefabs/Wood Canopy.prefab
+  artifactKey: Guid(e1f2b1eef74191d45a6f5a76a5d45556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/Wood Canopy.prefab using Guid(e1f2b1eef74191d45a6f5a76a5d45556) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88699bf4201b6ea4d89b4edaa013a624') in 0.0175283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Old Sea Port/prefabs/mooring_rope_holder_1.prefab
+  artifactKey: Guid(88b977c6c0cb6f347a2b35f97b16cdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/mooring_rope_holder_1.prefab using Guid(88b977c6c0cb6f347a2b35f97b16cdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e81765fa403e7c4a3202d24a8c6116a3') in 0.011631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Old Sea Port/prefabs/Plank_1.prefab
+  artifactKey: Guid(64438420d273554448959a35c747f25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/Plank_1.prefab using Guid(64438420d273554448959a35c747f25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f52a52af687bf1dd7f27162dea9a8b96') in 0.0181234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Old Sea Port/prefabs/building_segment_5.prefab
+  artifactKey: Guid(8fb5db1b50a4ab341a6b80aff9aa352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/prefabs/building_segment_5.prefab using Guid(8fb5db1b50a4ab341a6b80aff9aa352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '461c82c28118b9e3f8539ef93b46415b') in 0.0147171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-VBA2-JV43-3YNR-YA9F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6871962646222-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.794 seconds
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.832 seconds
+Domain Reload Profiling: 1622ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (449ms)
+		LoadAssemblies (414ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (138ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (832ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (681ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3873 unused Assets / (2.9 MB). Loaded Objects now: 4514.
+Memory consumption went from 98.3 MB to 95.4 MB.
+Total: 10.917300 ms (FindLiveObjects: 0.696600 ms CreateObjectMapping: 0.181000 ms MarkObjects: 6.804900 ms  DeleteObjects: 3.232000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.679 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.733 seconds
+Domain Reload Profiling: 1410ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (132ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (733ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (596ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (366ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3872 unused Assets / (2.9 MB). Loaded Objects now: 4515.
+Memory consumption went from 98.3 MB to 95.4 MB.
+Total: 11.263700 ms (FindLiveObjects: 0.945900 ms CreateObjectMapping: 0.238900 ms MarkObjects: 7.204500 ms  DeleteObjects: 2.872100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-VBA2-JV43-3YNR-YA9F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6871962646222-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.683 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.676 seconds
+Domain Reload Profiling: 1357ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (335ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (677ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (542ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3872 unused Assets / (2.3 MB). Loaded Objects now: 4516.
+Memory consumption went from 98.3 MB to 96.1 MB.
+Total: 10.189400 ms (FindLiveObjects: 0.775300 ms CreateObjectMapping: 0.210700 ms MarkObjects: 5.984300 ms  DeleteObjects: 3.216800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.684 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.690 seconds
+Domain Reload Profiling: 1374ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (366ms)
+		LoadAssemblies (329ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (135ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (691ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (552ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (336ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3872 unused Assets / (2.9 MB). Loaded Objects now: 4517.
+Memory consumption went from 98.4 MB to 95.5 MB.
+Total: 10.454100 ms (FindLiveObjects: 0.671300 ms CreateObjectMapping: 0.174500 ms MarkObjects: 6.826100 ms  DeleteObjects: 2.780200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.691 seconds
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.761 seconds
+Domain Reload Profiling: 1451ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (337ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (762ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (394ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3872 unused Assets / (2.5 MB). Loaded Objects now: 4518.
+Memory consumption went from 98.4 MB to 95.9 MB.
+Total: 11.072300 ms (FindLiveObjects: 0.923100 ms CreateObjectMapping: 0.228700 ms MarkObjects: 7.134300 ms  DeleteObjects: 2.784500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-VBA2-JV43-3YNR-YA9F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6871962646222-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.693 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1399ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (381ms)
+		LoadAssemblies (341ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (708ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (568ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3872 unused Assets / (2.8 MB). Loaded Objects now: 4519.
+Memory consumption went from 98.4 MB to 95.6 MB.
+Total: 12.353000 ms (FindLiveObjects: 0.861200 ms CreateObjectMapping: 0.210400 ms MarkObjects: 8.046000 ms  DeleteObjects: 3.232900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.688 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.739 seconds
+Domain Reload Profiling: 1424ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (378ms)
+		LoadAssemblies (342ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (740ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (608ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (395ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3872 unused Assets / (2.6 MB). Loaded Objects now: 4520.
+Memory consumption went from 98.4 MB to 95.8 MB.
+Total: 14.935100 ms (FindLiveObjects: 0.937400 ms CreateObjectMapping: 0.380900 ms MarkObjects: 9.535000 ms  DeleteObjects: 4.079700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 254.667801 seconds.
+  path: Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset
+  artifactKey: Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset using Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '422f9d510a9e4dd37bad925221c8dee0') in 0.0306628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-VBA2-JV43-3YNR-YA9F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6871962646222-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.698 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.689 seconds
+Domain Reload Profiling: 1386ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (372ms)
+		LoadAssemblies (330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (136ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (689ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (554ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3872 unused Assets / (2.7 MB). Loaded Objects now: 4521.
+Memory consumption went from 98.4 MB to 95.7 MB.
+Total: 12.522800 ms (FindLiveObjects: 0.840700 ms CreateObjectMapping: 0.224400 ms MarkObjects: 8.157600 ms  DeleteObjects: 3.297500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 47.214216 seconds.
+  path: Assets/Old Sea Port/scenes/Dock Thing/Lightmap-0_comp_dir.png
+  artifactKey: Guid(3120b0dc834728e41bf10e3cf988dda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/scenes/Dock Thing/Lightmap-0_comp_dir.png using Guid(3120b0dc834728e41bf10e3cf988dda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db1c442f4252f336e663992990ce0220') in 0.0666371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-8.exr
+  artifactKey: Guid(325068744a08ae84fac41b54971b231d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-8.exr using Guid(325068744a08ae84fac41b54971b231d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c041f705bdd56f054fa5837e3c141269') in 0.0382526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-7.exr
+  artifactKey: Guid(f07a05ef08f5afa438da798b2196d5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-7.exr using Guid(f07a05ef08f5afa438da798b2196d5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be06d40368f866d50581bcdfe9510c18') in 0.0170846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Old Sea Port/scenes/Dock Thing/Lightmap-0_comp_light.exr
+  artifactKey: Guid(80cde5ab4f5ad6f44a0379bb6efaff71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/scenes/Dock Thing/Lightmap-0_comp_light.exr using Guid(80cde5ab4f5ad6f44a0379bb6efaff71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36f1c985a9925a4b101006226435fe77') in 0.0136661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-4.exr
+  artifactKey: Guid(ce0590de41061ed479a880ee6a062c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-4.exr using Guid(ce0590de41061ed479a880ee6a062c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8460a537783acdbbb07b88785515521') in 0.043364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-6.exr
+  artifactKey: Guid(9f1c088b64d6b11439e9d4ff2ec3e0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-6.exr using Guid(9f1c088b64d6b11439e9d4ff2ec3e0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79911d6adcefbf29fa2b7f7875488284') in 0.0140039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo" at "2026-04-30T09:27:02.8548788Z"
 Built from '6000.3/staging' branch; Version is '6000.3.2f1 (a9779f353c9b) revision 11106207'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo" at "2026-05-03T22:23:34.4698478Z"
 OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'es' Physical Memory: 32716 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-04-30T09:27:02Z
+Date: 2026-05-03T22:23:34Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ B:/Clase/ProyectoUnityAudio/Audio_Unity
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56925
+62475
 -licensingIpc
 LicenseClient-victo
 -job-worker-count
@@ -65,14 +65,14 @@ B:/Clase/ProyectoUnityAudio/Audio_Unity
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [28372]  Target information:
+Player connection [29396]  Target information:
 
-Player connection [28372]  * "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 4220697651 [EditorId] 4220697651 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [29396]  * "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 217129391 [EditorId] 217129391 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [28372]  * "[IP] 172.24.176.1 [Port] 0 [Flags] 2 [Guid] 4220697651 [EditorId] 4220697651 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [29396]  * "[IP] 172.24.176.1 [Port] 0 [Flags] 2 [Guid] 217129391 [EditorId] 217129391 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [28372] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [28372] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29396] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29396] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.2f1 (a9779f353c9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -100,7 +100,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -108,14 +108,14 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/E
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              e1bf62169793455289856821eaa0c58b
-  Correlation Id:          9b0c010a53056dd0d5302a5696583203
-  External correlation Id: 7980539244555627739
+  Session Id:              0377925f12504284a396b3169ce24576
+  Correlation Id:          b6308d13bd4df992b1a8c07a0cc064bf
+  External correlation Id: 8422920756563478620
   Machine Id:              QMr05shRFa1wtlgs+6uLKGQOFKQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-victo" (connect: 0.00s, validation: 0.00s, handshake: 2.22s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo-notifications" at "2026-04-30T09:27:05.0793161Z"
-[Licensing::Module] Licensing Background thread has ended after 2.22s
-[Licensing::Module] Licensing is initialized (took 0.90s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-victo" (connect: 0.00s, validation: 0.00s, handshake: 1.58s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo-notifications" at "2026-05-03T22:23:36.0510352Z"
+[Licensing::Module] Licensing Background thread has ended after 1.58s
+[Licensing::Module] Licensing is initialized (took 0.37s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-VBA2-JV43-3YNR-YA9F-XXXX
@@ -128,41 +128,41 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/E
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.909352 seconds.
-- Loaded All Assemblies, in  1.577 seconds
+Registered in 0.373734 seconds.
+- Loaded All Assemblies, in  0.905 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.903 seconds
-Domain Reload Profiling: 2472ms
-	BeginReloadAssembly (210ms)
+- Finished resetting the current domain, in  0.454 seconds
+Domain Reload Profiling: 1355ms
+	BeginReloadAssembly (178ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (981ms)
-	LoadAllAssembliesAndSetupDomain (300ms)
-		LoadAssemblies (206ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (437ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (174ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (292ms)
-			TypeCache.Refresh (290ms)
-				TypeCache.ScanAssembly (267ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (195ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (903ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (455ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (845ms)
+		SetupLoadedEditorAssemblies (414ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (80ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (168ms)
-			ProcessInitializeOnLoadAttributes (441ms)
-			ProcessInitializeOnLoadMethodAttributes (151ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -182,8 +182,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.983 seconds
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.758 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -192,599 +192,62 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.816 seconds
-Domain Reload Profiling: 1794ms
-	BeginReloadAssembly (281ms)
+- Finished resetting the current domain, in  0.668 seconds
+Domain Reload Profiling: 1454ms
+	BeginReloadAssembly (208ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (565ms)
-		LoadAssemblies (456ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (480ms)
+		LoadAssemblies (360ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (253ms)
-			TypeCache.Refresh (206ms)
-				TypeCache.ScanAssembly (189ms)
-			BuildScriptInfoCaches (36ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (816ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (149ms)
+			BuildScriptInfoCaches (31ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (668ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (667ms)
+		SetupLoadedEditorAssemblies (546ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (171ms)
-			ProcessInitializeOnLoadAttributes (436ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3873 unused Assets / (1.1 MB). Loaded Objects now: 4454.
-Memory consumption went from 92.8 MB to 91.7 MB.
-Total: 12.247500 ms (FindLiveObjects: 0.775600 ms CreateObjectMapping: 0.233200 ms MarkObjects: 9.062300 ms  DeleteObjects: 2.174100 ms)
+Unloading 3865 unused Assets / (1.1 MB). Loaded Objects now: 4448.
+Memory consumption went from 93.3 MB to 92.2 MB.
+Total: 7.836100 ms (FindLiveObjects: 0.762900 ms CreateObjectMapping: 0.206700 ms MarkObjects: 5.657800 ms  DeleteObjects: 1.207000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 57166.921940 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/proto_red.mat
-  artifactKey: Guid(a5f9f2b882f176143b2fa5917f878bb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/proto_red.mat using Guid(a5f9f2b882f176143b2fa5917f878bb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da0a8986b0a0871223176aaaf4b1834e') in 0.109493 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/cube.fbx
-  artifactKey: Guid(dee2cc7c00fcd6b4f90719f3660798f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/cube.fbx using Guid(dee2cc7c00fcd6b4f90719f3660798f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9767c68054d4648bdba876d7388250f') in 0.0596935 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 362979.510157 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab
+  artifactKey: Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab using Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18750d76907f5b4d8700b804a65eb701') in 0.1426836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/Materials/blue_cube_simple.mat
-  artifactKey: Guid(b9c988e3a01f8a34f8cf350e4f566def) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/Materials/blue_cube_simple.mat using Guid(b9c988e3a01f8a34f8cf350e4f566def) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3cedcbbdda1f8ae88f001f78d2b21f0a') in 0.0070195 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/ramp60.asset
-  artifactKey: Guid(707c470e77973b349ab17e8eab207bce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/ramp60.asset using Guid(707c470e77973b349ab17e8eab207bce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '837f02bb86fdd7ae46eb744804221fb4') in 0.0069715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Scripts
-  artifactKey: Guid(c3a3f5e21c4b73f4082615acb26c2525) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Scripts using Guid(c3a3f5e21c4b73f4082615acb26c2525) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c3ad19556f095328c4765bbff37d11df') in 0.0052908 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Invector_BasicLocomotion/LightingData.asset
-  artifactKey: Guid(048c062f435c9594887cb9e48f6bdb7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Invector_BasicLocomotion/LightingData.asset using Guid(048c062f435c9594887cb9e48f6bdb7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03e825dfacaeac31076b857fd9087e8e') in 0.0072756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/Materials/invector-icon-white.mat
-  artifactKey: Guid(31b68aadfd419f548b4a8c7d60cd5847) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/Materials/invector-icon-white.mat using Guid(31b68aadfd419f548b4a8c7d60cd5847) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36423f9bf5ea8b5b5eec9a55a28c0f38') in 0.0073841 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/ladder_chromo.mat
-  artifactKey: Guid(b2b10d5d20df19c4095609048c3bec10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/ladder_chromo.mat using Guid(b2b10d5d20df19c4095609048c3bec10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1213538fc8b6bdd5274bdefcea6bb31') in 0.0104903 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Members_Metal.mat
-  artifactKey: Guid(c90f59755f1461b4483f9f225b77813c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Members_Metal.mat using Guid(c90f59755f1461b4483f9f225b77813c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0795b6449ecff15dc251f2b89c00b94') in 0.0078444 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Resources/clickToMoveIcon.png
-  artifactKey: Guid(6f4828d9e447f524f8fdc4f4fe331c0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Resources/clickToMoveIcon.png using Guid(6f4828d9e447f524f8fdc4f4fe331c0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2cbd7a80a10dc03a740159945e97c79') in 0.0596383 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/invector-icon.fbx
-  artifactKey: Guid(82d677cc46649fa4cb8988583aaa1623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/invector-icon.fbx using Guid(82d677cc46649fa4cb8988583aaa1623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b8c26c6519f3f363534818fb42a30ba') in 0.015017 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/floor.asset
-  artifactKey: Guid(a7565f61f753d634ba03df8b9ac38550) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/floor.asset using Guid(a7565f61f753d634ba03df8b9ac38550) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75a3ed4c49d7dd30db805da6c1d64ec8') in 0.0090837 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/locomotion_statuePlate.mat
-  artifactKey: Guid(cefe63fbb5dbcf948bf6a6d33f3a029f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/locomotion_statuePlate.mat using Guid(cefe63fbb5dbcf948bf6a6d33f3a029f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '110042bd1de8ca1d2b41605f2b58c854') in 0.0074344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/MeleeBanner.mat
-  artifactKey: Guid(264d21211bf46b745ad017bc8538a2a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/MeleeBanner.mat using Guid(264d21211bf46b745ad017bc8538a2a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c50472c8d4ba9ec7af7d044e26577145') in 0.0076248 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/metal_normal.png
-  artifactKey: Guid(12f69e56d82f345468f635e2842c3154) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/metal_normal.png using Guid(12f69e56d82f345468f635e2842c3154) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '663788298e0fac87d04bd60da1ec1f24') in 0.0127584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator/Script
-  artifactKey: Guid(22c6beaa7cee2fe47ad477eb20a4137c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator/Script using Guid(22c6beaa7cee2fe47ad477eb20a4137c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22d23c6b685881d71332694379500264') in 0.004803 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Members_Plastic.mat
-  artifactKey: Guid(4a9aabb04c2af0e42a67b624135c49e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Members_Plastic.mat using Guid(4a9aabb04c2af0e42a67b624135c49e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8c3412f61bcba7657dc356197d77dcd') in 0.0072881 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0
-  artifactKey: Guid(592212b3d25d5c94e8deb490ea381cb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0 using Guid(592212b3d25d5c94e8deb490ea381cb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07838cb6a8f14c07594aa730511aa29a') in 0.0053078 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/proto-white.png
-  artifactKey: Guid(7ef1a8798f9d51948a22b15079683baf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/proto-white.png using Guid(7ef1a8798f9d51948a22b15079683baf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63216ae3344d9093edf97b9fc6775449') in 0.0134205 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController/vThirdPersonAnimator.cs
-  artifactKey: Guid(b74f4ff80d113374fb65bf806f887874) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController/vThirdPersonAnimator.cs using Guid(b74f4ff80d113374fb65bf806f887874) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4324d27c4cc13cad5e3d0e0def25edd4') in 0.0043149 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/vspike-old.mat
-  artifactKey: Guid(bf247d6bf1713bf41bfd977927332cd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/vspike-old.mat using Guid(bf247d6bf1713bf41bfd977927332cd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8da4d68b12c1c955ffdcfd37c5cc10ba') in 0.0061535 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator/Script/Editor
-  artifactKey: Guid(304237a0b0ea3bb4caa2d325a310a642) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator/Script/Editor using Guid(304237a0b0ea3bb4caa2d325a310a642) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '521c7a27a15bc48e64b779c3aef6dd09') in 0.0047185 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/gras.png
-  artifactKey: Guid(aa0e3b0078b1f974abf388813d4174a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/gras.png using Guid(aa0e3b0078b1f974abf388813d4174a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff1cc5b4bad9129b7d3b3988e94ce7ea') in 0.0122883 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/vjumpMultiplier.mat
-  artifactKey: Guid(c533df60b88740f49b1abb3c87d861dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/vjumpMultiplier.mat using Guid(c533df60b88740f49b1abb3c87d861dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cee42e9788262f5c9607792277dbb6d0') in 0.0057808 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Invector_BasicLocomotionSettings.lighting
-  artifactKey: Guid(d372c9a893c4bca4d91ca08e6c85ca3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Invector_BasicLocomotionSettings.lighting using Guid(d372c9a893c4bca4d91ca08e6c85ca3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)LightingSettings: switching bake backend from 2 to 1.
- -> (artifact id: 'e2d947ae28222ddcb5fff8782b3f3767') in 0.0134574 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Invector_BasicLocomotion.unity
-  artifactKey: Guid(12a4d75da2db4d3439c09e07c73a85b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Invector_BasicLocomotion.unity using Guid(12a4d75da2db4d3439c09e07c73a85b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3044f8b02eebd5042fe9f0ebe33c14b6') in 0.0182893 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/Stairs.prefab
-  artifactKey: Guid(db0b3ea198141184fab2364e6a276864) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/Stairs.prefab using Guid(db0b3ea198141184fab2364e6a276864) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7c36ab6bab60521238a8d7dfd67b33d') in 0.0224382 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/metal.jpg
-  artifactKey: Guid(aa2e29011c31245428ec0bdfd26e8d80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/metal.jpg using Guid(aa2e29011c31245428ec0bdfd26e8d80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b9c48126d91a52fb89add04450d89b7c') in 0.0093044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/Icosphere.prefab
-  artifactKey: Guid(ecf8c4fb42504754cba503641e324366) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/Icosphere.prefab using Guid(ecf8c4fb42504754cba503641e324366) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24920d59d15d478b394eb5464302986e') in 0.0121429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/vpoison-old.png
-  artifactKey: Guid(eaeac9f7513efa046a4781a3a305d3cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/vpoison-old.png using Guid(eaeac9f7513efa046a4781a3a305d3cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8582cf144ec57f6f96c04d7e04783b4b') in 0.0090964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.134888 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_small.prefab
-  artifactKey: Guid(57f0e397c511a91489dcee01605a2aaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_small.prefab using Guid(57f0e397c511a91489dcee01605a2aaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e4a8684cfb4602cae3633aa7a5f5cf7') in 0.0069986 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Scripts/Camera/Editor
-  artifactKey: Guid(365b00e36dcb8d349a704af253036471) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Scripts/Camera/Editor using Guid(365b00e36dcb8d349a704af253036471) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1bc93eaea3657eb0c06818f8ff453a36') in 0.004161 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController/Editor/Resources/vSkin.guiskin
-  artifactKey: Guid(3f7f845cfdfb83b4597aae966022b206) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController/Editor/Resources/vSkin.guiskin using Guid(3f7f845cfdfb83b4597aae966022b206) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f313e1b3dadc8e09987c3870b8fe86d') in 0.0766861 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/carbon.mat
-  artifactKey: Guid(50ac9aaf650337544b871e557fa095ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/carbon.mat using Guid(50ac9aaf650337544b871e557fa095ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c90a73759a0ea6a72b27e42021e4d95d') in 0.0052509 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/Materials/invector-icon-light-gray.mat
-  artifactKey: Guid(9ab2092d552a18c4e8d69676b61e9ed6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/Materials/invector-icon-light-gray.mat using Guid(9ab2092d552a18c4e8d69676b61e9ed6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1346d503d2a2577963b59c4c6e595b26') in 0.0055898 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/floor.prefab
-  artifactKey: Guid(ce681f0b940baed4a92d9f6cf065313c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/floor.prefab using Guid(ce681f0b940baed4a92d9f6cf065313c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '995d04bfc8fa1b89b92634d83bc6dce6') in 0.008515 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/frameborder_b.mat
-  artifactKey: Guid(f91d154d1ec8a964c91dd471c684ecc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/frameborder_b.mat using Guid(f91d154d1ec8a964c91dd471c684ecc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18efddfb888b84c5d9c929f7832bb869') in 0.0053999 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/health.fbx
-  artifactKey: Guid(33467abb1755ec142a053756c3f7f87f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/health.fbx using Guid(33467abb1755ec142a053756c3f7f87f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '802238a4a806a44f151e5f970dc5e96c') in 0.0133264 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Resources/vCommentMessageIconColor.png
-  artifactKey: Guid(75bf691317e7f334896f42cd8d1b5b28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Resources/vCommentMessageIconColor.png using Guid(75bf691317e7f334896f42cd8d1b5b28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88f5e6f0dc7b2fa6e858a84aa64717e8') in 0.0080242 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Scripts/Camera/vThirdPersonCamera.cs
-  artifactKey: Guid(1a1bfe72fbc87d04e885296b53e91c66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Scripts/Camera/vThirdPersonCamera.cs using Guid(1a1bfe72fbc87d04e885296b53e91c66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58b4a5e44d8564c5d10a1b7ae81838c8') in 0.0037777 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_small.asset
-  artifactKey: Guid(1f415c2a0f81b57488cd28fa7561a2a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_small.asset using Guid(1f415c2a0f81b57488cd28fa7561a2a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9b1d4dab11161ce8cd68c716a9d8ea0') in 0.0055225 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Textures
-  artifactKey: Guid(5b0105721991c514aa3ff0d224831b9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Textures using Guid(5b0105721991c514aa3ff0d224831b9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '776cfbed8d02c1c8f796c07d38dbb34e') in 0.0030234 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/vTile_NRM.jpg
-  artifactKey: Guid(632967334990da04ba1bf73efa2533c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/vTile_NRM.jpg using Guid(632967334990da04ba1bf73efa2533c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc857e4ab3eef04ae5d9d8b2419aa99e') in 0.0112378 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/Materials/stair_Metal.mat
-  artifactKey: Guid(81e74faac9902024f82cdbde512a360c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/Materials/stair_Metal.mat using Guid(81e74faac9902024f82cdbde512a360c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4b3c7f85fa5b0bb465de772cf933564') in 0.0054888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/statueBase.asset
-  artifactKey: Guid(b7e0d290f423d69489fee86362623940) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/statueBase.asset using Guid(b7e0d290f423d69489fee86362623940) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b45d735cc4bbfbff4637a8c902f60079') in 0.0052004 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/soilSand_NRM.png
-  artifactKey: Guid(94bc72c56a46e474f8e0cf95c5f0aa49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/soilSand_NRM.png using Guid(94bc72c56a46e474f8e0cf95c5f0aa49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'edd996e2beedbaec5fd48794a6a67694') in 0.0078069 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Audio
-  artifactKey: Guid(fffda9b12a1dffa44829489ff66b2078) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Audio using Guid(fffda9b12a1dffa44829489ff66b2078) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab985d3fbeedc379b47e6c19f42c7740') in 0.0036005 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/vPickupItem.cs
-  artifactKey: Guid(094bc00b4db75c041854f4f3e6cc4c4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/vPickupItem.cs using Guid(094bc00b4db75c041854f4f3e6cc4c4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12c4b355dfe2417e62f681e69f0cc1a4') in 0.0040648 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Textures/Custom/Normal_body.png
-  artifactKey: Guid(2a0eccb177040f8499cd6b9b93c1b142) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Textures/Custom/Normal_body.png using Guid(2a0eccb177040f8499cd6b9b93c1b142) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'acb4df1fc930a3bbc64e1dcb72d22a5d') in 0.0242225 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/vAnimateUV.cs
-  artifactKey: Guid(e9ccff300e5a8e6499d592844b2499d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/vAnimateUV.cs using Guid(e9ccff300e5a8e6499d592844b2499d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37b2f058d5ba453c11da10fe78f89f80') in 0.0039626 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.280852 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Prefab/VBOT2.0_Custom.prefab
-  artifactKey: Guid(5563b2c1cf35cae4f8490dfea2d2aa41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Prefab/VBOT2.0_Custom.prefab using Guid(5563b2c1cf35cae4f8490dfea2d2aa41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7773b04c9861d911783f1fedc0c6844c') in 0.0259532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 183
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/LocomotionBanner.mat
-  artifactKey: Guid(1fde83912a8bec848bc5c8d01d2afe97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/LocomotionBanner.mat using Guid(1fde83912a8bec848bc5c8d01d2afe97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dcaaa97365ba1fe810ec0f8042027cd3') in 0.0279571 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models
-  artifactKey: Guid(df7a237ce1e4b05448d6e510b58bfa45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models using Guid(df7a237ce1e4b05448d6e510b58bfa45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d3efb217058573cf571b78e3870718b') in 0.006021 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/Materials/blue_cube.mat
-  artifactKey: Guid(e214d4cadc22d544dae9aa451755af12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/Materials/blue_cube.mat using Guid(e214d4cadc22d544dae9aa451755af12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '25716342bc490864dc8d0d5cadfc11fe') in 0.0071884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Prefabs/ThirdPersonController_LITE.prefab
-  artifactKey: Guid(fc9b148a2950aaf4cba8422632222c5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Prefabs/ThirdPersonController_LITE.prefab using Guid(fc9b148a2950aaf4cba8422632222c5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32e913c6bf8ba13c41ab5413a00b059d') in 0.0742185 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 240
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/proto_gray.mat
-  artifactKey: Guid(23b270fd728652740aff62aef34e0081) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/proto_gray.mat using Guid(23b270fd728652740aff62aef34e0081) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '904eca82ef99c3312e839551414201a4') in 0.018519 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/door.prefab
-  artifactKey: Guid(3fef0d0a73e72b543b52178ed33c4ccc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/door.prefab using Guid(3fef0d0a73e72b543b52178ed33c4ccc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e86006e44398d8d9dae9558d277d783a') in 0.0086531 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/ShooterBanner.png
-  artifactKey: Guid(da1d8fe1ebc7feb4ebb806bd1c168d29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/ShooterBanner.png using Guid(da1d8fe1ebc7feb4ebb806bd1c168d29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d0788ecdfe084ce1572ce754dfd5385') in 0.0269532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others
-  artifactKey: Guid(9efc6669b1b8b7944b371d4172294fcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others using Guid(9efc6669b1b8b7944b371d4172294fcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe8ed44e54cf94700dbce4ac5eed24ff') in 0.0043189 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/Materials
-  artifactKey: Guid(f4db9bf7cb7201346826da6fcb0ce4fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/Materials using Guid(f4db9bf7cb7201346826da6fcb0ce4fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4f0c1bfeecfd7f373f75928b169d1ed') in 0.0200855 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Rubber.mat
-  artifactKey: Guid(33c350b6cd6102647be9afdfaec5b563) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Rubber.mat using Guid(33c350b6cd6102647be9afdfaec5b563) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e115226c600e66444bc28777e2632891') in 0.0336821 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Invector_BasicLocomotion
-  artifactKey: Guid(05e989f3dcd0f4944a2d256a23083614) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Invector_BasicLocomotion using Guid(05e989f3dcd0f4944a2d256a23083614) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ebe28d6f37dc5d59d18f72905f37c9dd') in 0.062576 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/proto_gray 1.mat
-  artifactKey: Guid(ff92470e0763be545a40824b20f60195) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/proto_gray 1.mat using Guid(ff92470e0763be545a40824b20f60195) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7800d1145f5434be093027ecdabd5946') in 0.0045896 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController/Editor/Resources
-  artifactKey: Guid(6f76efe6e52c0254bb6c56ad6a01f7ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController/Editor/Resources using Guid(6f76efe6e52c0254bb6c56ad6a01f7ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b1fa9871d704cf5c5fd345bd7fbeb8a') in 0.0045752 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Resources/square.png
-  artifactKey: Guid(f981fdad814cbfb43969712c51317bae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Resources/square.png using Guid(f981fdad814cbfb43969712c51317bae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dfd8c2e3c176fbb8501e25f2667b879f') in 0.0134396 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/blockIcon.mat
-  artifactKey: Guid(bfbb0dc28d099374ea54992d9c8b94a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/blockIcon.mat using Guid(bfbb0dc28d099374ea54992d9c8b94a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0da7a3ffa3f8233fc177da386f738677') in 0.004826 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Resources/vMansionIcon.png
-  artifactKey: Guid(81795afb7fa33d647a8f3d086556560c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/Resources/vMansionIcon.png using Guid(81795afb7fa33d647a8f3d086556560c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0da3d90b0f6ebd4e52a9a5cb2e3b8b6') in 0.0101962 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/deadgrass_NRM.png
-  artifactKey: Guid(958e6b9b36f25354db99deafd3eaaaa6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/deadgrass_NRM.png using Guid(958e6b9b36f25354db99deafd3eaaaa6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3911e67b252cc112d4c8bd4b82aff9f3') in 0.0410348 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/stepUp.prefab
-  artifactKey: Guid(b485a54006d31cc4589985f0b9f75dc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/stepUp.prefab using Guid(b485a54006d31cc4589985f0b9f75dc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e339d5b464267476f118b174141877be') in 0.0079233 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  path: Assets/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab
+  artifactKey: Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab using Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc31255a15920d219f2add34144420ba') in 0.1207602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 513
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

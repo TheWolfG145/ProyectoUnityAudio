@@ -1,0 +1,527 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.2f1 (a9779f353c9b) revision 11106207'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo" at "2026-04-30T09:34:52.6668918Z"
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'es' Physical Memory: 32716 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-04-30T09:34:52Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+B:/Clase/ProyectoUnityAudio/Audio_Unity
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+56925
+-licensingIpc
+LicenseClient-victo
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: B:/Clase/ProyectoUnityAudio/Audio_Unity
+B:/Clase/ProyectoUnityAudio/Audio_Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [29584]  Target information:
+
+Player connection [29584]  * "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 3660724388 [EditorId] 3660724388 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29584]  * "[IP] 172.24.176.1 [Port] 0 [Flags] 2 [Guid] 3660724388 [EditorId] 3660724388 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29584] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29584] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.2f1 (a9779f353c9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path B:/Clase/ProyectoUnityAudio/Audio_Unity/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     7989 MB
+    Driver:   32.0.15.9621
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              45f035e8c2ca4ef284817e5f19859ed8
+  Correlation Id:          9b0c010a53056dd0d5302a5696583203
+  External correlation Id: 5644954871946159916
+  Machine Id:              QMr05shRFa1wtlgs+6uLKGQOFKQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-victo" (connect: 0.00s, validation: 0.00s, handshake: 1.22s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo-notifications" at "2026-04-30T09:34:53.8866203Z"
+[Licensing::Module] Licensing Background thread has ended after 1.22s
+[Licensing::Module] Licensing is initialized (took 0.43s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-VBA2-JV43-3YNR-YA9F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6871962646222-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.439779 seconds.
+- Loaded All Assemblies, in  0.878 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.426 seconds
+Domain Reload Profiling: 1301ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (488ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (138ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (167ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (426ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (382ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-VBA2-JV43-3YNR-YA9F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6871962646222-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.772 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.614 seconds
+Domain Reload Profiling: 1382ms
+	BeginReloadAssembly (287ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (398ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (140ms)
+			BuildScriptInfoCaches (28ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (614ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (500ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3865 unused Assets / (1.1 MB). Loaded Objects now: 4448.
+Memory consumption went from 93.3 MB to 92.3 MB.
+Total: 8.641200 ms (FindLiveObjects: 0.886600 ms CreateObjectMapping: 0.277800 ms MarkObjects: 6.073200 ms  DeleteObjects: 1.401800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 57682.593525 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerCapsule.prefab
+  artifactKey: Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerCapsule.prefab using Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '074c4599af5724a1c088693b4a5c6e19') in 0.3099396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset
+  artifactKey: Guid(9e7be553448fa2546aea5752021cbcf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset using Guid(9e7be553448fa2546aea5752021cbcf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82ec8c3905b6ea072f38631dcd190998') in 0.0098973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat
+  artifactKey: Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat using Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '929c7ec0ea4c6e2b0979c451d9f814d6') in 0.0131132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Ramp_Prefab.prefab
+  artifactKey: Guid(8a7437817844dce4894b049de73b75f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/Environment/Prefabs/Ramp_Prefab.prefab using Guid(8a7437817844dce4894b049de73b75f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61464efb2bf36c6538f4aa2a94830016') in 0.0228493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_Normal.tif
+  artifactKey: Guid(104a45460231b8d4783e0bb2223be28c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_Normal.tif using Guid(104a45460231b8d4783e0bb2223be28c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4c66aae9f564caecd3f063d9323f4cd') in 0.0463472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_MetallicSmoothness.tif
+  artifactKey: Guid(e73adacd5e8f6fc45a491dbd62e71ead) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_MetallicSmoothness.tif using Guid(e73adacd5e8f6fc45a491dbd62e71ead) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55b9a9ee5c961834bd242b97e435b631') in 0.0101773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Look.png
+  artifactKey: Guid(af0ae2dbf3d1efb4f82af377950704a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Look.png using Guid(af0ae2dbf3d1efb4f82af377950704a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'daad4594ff3f567e7475720108fd5d41') in 0.0152712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Concrete_Footsteps
+  artifactKey: Guid(5f5880d19cc8d48c688d78a6c6d05ec8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Concrete_Footsteps using Guid(5f5880d19cc8d48c688d78a6c6d05ec8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ef1c48b6e78e671325cdb42d75e86ae') in 0.0034235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_AlbedoTransparency.tif
+  artifactKey: Guid(c6dc62700fa06274b9608a9fce8ed21b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_AlbedoTransparency.tif using Guid(c6dc62700fa06274b9608a9fce8ed21b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22da27fbb2f924916c5f35b76bf5da7d') in 0.0109814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/StarterAssets/TutorialInfo/Icons
+  artifactKey: Guid(bf2b09552ecf8f04294975e07f8da67e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/TutorialInfo/Icons using Guid(bf2b09552ecf8f04294975e07f8da67e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7fc4ea4e5a1d337b0257671b8e4d8932') in 0.0035978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat
+  artifactKey: Guid(43714b68324cc2c409d534d9874f2a2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat using Guid(43714b68324cc2c409d534d9874f2a2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7034453bf302c5d2ad630534de81ed64') in 0.0052875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs
+  artifactKey: Guid(4a300d010f57451488aa99000126fbd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs using Guid(4a300d010f57451488aa99000126fbd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '532ce3af75bc51ef0d12f493384c8f62') in 0.0050734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/StarterAssets/TutorialInfo/Icons/ReadMeImg.PNG
+  artifactKey: Guid(44a17a5b205fcd349a24700e6f5615bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/TutorialInfo/Icons/ReadMeImg.PNG using Guid(44a17a5b205fcd349a24700e6f5615bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af3631fcfda82ef5b80debeec3cac04e') in 0.009031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_03.wav
+  artifactKey: Guid(186de84b3207156479abe98f4958fed0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_03.wav using Guid(186de84b3207156479abe98f4958fed0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1286f992a821d095ebfecfc1aa18ef82') in 0.0306037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png
+  artifactKey: Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png using Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62d3cb4c8806bee29b8d2568bf6e1f3a') in 0.0096968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/StarterAssets/TutorialInfo
+  artifactKey: Guid(d9b1ba53f81715d4a8405a40b0a1e2c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/TutorialInfo using Guid(d9b1ba53f81715d4a8405a40b0a1e2c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac591f029aa8381778046c7404075a69') in 0.0031597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png
+  artifactKey: Guid(d9c0dd5cdac07b145be73329e489869a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png using Guid(d9c0dd5cdac07b145be73329e489869a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0078565a7323e921c3a1add29e1929fa') in 0.0101865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-2.exr
+  artifactKey: Guid(7e3f1677bc1aead4fb8791998078dcec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-2.exr using Guid(7e3f1677bc1aead4fb8791998078dcec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '239dc502af957ad12a22cb28f6230093') in 0.0098275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Models
+  artifactKey: Guid(f99c02f4392c29d4dad06bad32b0bfb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Models using Guid(f99c02f4392c29d4dad06bad32b0bfb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c1e7f67472e5b05a40db95c932013bd') in 0.0033914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/EventSystem
+  artifactKey: Guid(c89b887ca267db84f895ccd75713a923) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/Mobile/Prefabs/EventSystem using Guid(c89b887ca267db84f895ccd75713a923) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03496348843bd5d5bce7dc52566f8364') in 0.0029484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_07.wav
+  artifactKey: Guid(dd1af302b8902684d9381de1f2d3a5af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_07.wav using Guid(dd1af302b8902684d9381de1f2d3a5af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2df1487ef4e97eb9b7e31ed1e62811b') in 0.0652192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Animations/Jump--InAir.anim.fbx
+  artifactKey: Guid(063aa479676c4084ebf187660ca0a7b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Animations/Jump--InAir.anim.fbx using Guid(063aa479676c4084ebf187660ca0a7b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ec6d3cbfcf08b6cd27c10d0eb155d16') in 0.0465108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 144
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/VirtualInputs
+  artifactKey: Guid(bcc364c89270bab40a69cac58f5ae926) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/Mobile/Scripts/VirtualInputs using Guid(bcc364c89270bab40a69cac58f5ae926) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f81d528a62706e7d4003e1b8d7497343') in 0.0241751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Land_03.wav
+  artifactKey: Guid(a3da1afec2ee3465db49602a61ef0ec7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Land_03.wav using Guid(a3da1afec2ee3465db49602a61ef0ec7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '51b6ed5a4d4b760e8d5c3af60d34f97c') in 0.016991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/StarterAssets/Environment/RenderPipelineProfiles
+  artifactKey: Guid(4d9eba5f689533f4196b93e67348ada3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/Environment/RenderPipelineProfiles using Guid(4d9eba5f689533f4196b93e67348ada3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28212a0e4eca3319c175f5052e47477f') in 0.0035929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_MetallicSmoothness.tif
+  artifactKey: Guid(1c98c94efa7792645972ecf95e6f86c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_MetallicSmoothness.tif using Guid(1c98c94efa7792645972ecf95e6f86c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '383bc27927094267bf772eaac4075c95') in 0.0537606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Concrete_Footsteps/Concrete_01.wav
+  artifactKey: Guid(3515527f48a854c658f6654d89c03d44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Concrete_Footsteps/Concrete_01.wav using Guid(3515527f48a854c658f6654d89c03d44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38487408499d5af347afdddd37530d53') in 0.0295732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png
+  artifactKey: Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png using Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c7655b167d7c38dc61fef84e6696719') in 0.0122867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Wall_Prefab.prefab
+  artifactKey: Guid(9eb847ab97b24024588682c8601254cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/Environment/Prefabs/Wall_Prefab.prefab using Guid(9eb847ab97b24024588682c8601254cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08dcb36b883809de1b976f543784a853') in 0.0089623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N.anim.fbx
+  artifactKey: Guid(8269a9f8cf495034c817722ac21f309f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N.anim.fbx using Guid(8269a9f8cf495034c817722ac21f309f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77d6597f1591f76261306ad407d4641e') in 0.0327905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 144
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Concrete_Footsteps/Concrete_02.wav
+  artifactKey: Guid(becc44e5c724942ff9db71e50e0cf47f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Concrete_Footsteps/Concrete_02.wav using Guid(becc44e5c724942ff9db71e50e0cf47f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '080fc7c8ef9fb9a5a61ecb50f1cc3608') in 0.0360679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Scenes/Playground.unity
+  artifactKey: Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Scenes/Playground.unity using Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45312353fda0624ab5bf75adc86200dc') in 0.0138326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-1.exr
+  artifactKey: Guid(1b8a4de7469ad774c80dd6678d94e6b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-1.exr using Guid(1b8a4de7469ad774c80dd6678d94e6b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '092dd0bc32b4d18b07fa99dfb96f0269') in 0.0069794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/CanvasInputs
+  artifactKey: Guid(0777899404b4b2b4696f1032f3231697) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/Mobile/Scripts/CanvasInputs using Guid(0777899404b4b2b4696f1032f3231697) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33c2c5e7c7065a854608941063a14fbe') in 0.0056488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Prefabs/MainCamera.prefab
+  artifactKey: Guid(f6d148d888ffbf54b9afe9936dfaec1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/MainCamera.prefab using Guid(f6d148d888ffbf54b9afe9936dfaec1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cad35f182dcbd611ae0f4f4ad8e888cf') in 0.0157175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-0.exr
+  artifactKey: Guid(b65762d7243eb714e903b585ed68a576) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-0.exr using Guid(b65762d7243eb714e903b585ed68a576) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4fa49d81f458c55fe066f6ad44067da') in 0.0069993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
