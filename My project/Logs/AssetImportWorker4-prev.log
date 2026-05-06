@@ -1,0 +1,563 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.9f1 (e0c4e791ab71) revision 14730471'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'es' Physical Memory: 32716 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-05-05T19:57:09Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo" at "2026-05-05T19:57:09.5347037Z"
+
+COMMAND LINE ARGUMENTS:
+B:\Unity\UnityInstalls\6000.2.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+B:/Clase/ProyectoUnityAudio/My project
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+55491
+-licensingIpc
+LicenseClient-victo
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: B:/Clase/ProyectoUnityAudio/My project
+B:/Clase/ProyectoUnityAudio/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13984]  Target information:
+
+Player connection [13984]  * "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 1928703346 [EditorId] 1928703346 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13984]  * "[IP] 172.23.80.1 [Port] 0 [Flags] 2 [Guid] 1928703346 [EditorId] 1928703346 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13984] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13984] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 24884, path: "B:/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              c71d044c349047eb8025d12b326abb3d
+  Correlation Id:          bb7cec15395a325de713175b7b1d2484
+  External correlation Id: 120909041258433782
+  Machine Id:              QMr05shRFa1wtlgs+6uLKGQOFKQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-victo" (connect: 0.00s, validation: 0.00s, handshake: 0.07s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo-notifications" at "2026-05-05T19:57:09.6111003Z"
+[Licensing::Module] Licensing Background thread has ended after 0.08s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.9f1 (e0c4e791ab71)
+[Subsystems] Discovering subsystems at path B:/Unity/UnityInstalls/6000.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path B:/Clase/ProyectoUnityAudio/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     7989 MB
+    Driver:   32.0.15.9621
+Initialize mono
+Mono path[0] = 'B:/Unity/UnityInstalls/6000.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'B:/Unity/UnityInstalls/6000.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'B:/Unity/UnityInstalls/6000.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: B:/Unity/UnityInstalls/6000.2.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: B:/Unity/UnityInstalls/6000.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-VBA2-JV43-3YNR-YA9F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6871962646222-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: B:/Unity/UnityInstalls/6000.2.9f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.006651 seconds.
+- Loaded All Assemblies, in  0.508 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.355 seconds
+Domain Reload Profiling: 864ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (189ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (184ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (356ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-VBA2-JV43-3YNR-YA9F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6871962646222-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.735 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.605 seconds
+Domain Reload Profiling: 1340ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (348ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (146ms)
+			BuildScriptInfoCaches (33ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (605ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (487ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3874 unused Assets / (1.1 MB). Loaded Objects now: 4374.
+Memory consumption went from 85.5 MB to 84.5 MB.
+Total: 6.917800 ms (FindLiveObjects: 0.617300 ms CreateObjectMapping: 0.262400 ms MarkObjects: 4.658500 ms  DeleteObjects: 1.378100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3195.291403 seconds.
+  path: Assets/Audio/BackgroundMusic/Track4_Creeping Dread.wav
+  artifactKey: Guid(221d5b4a95f9fc54c9bd5afc9bc3b4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/BackgroundMusic/Track4_Creeping Dread.wav using Guid(221d5b4a95f9fc54c9bd5afc9bc3b4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b1d3945b820df776bd58dd586316dba') in 0.1155204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.113673 seconds.
+  path: Assets/Audio/BackgroundMusic/Track4_Creeping Dread.wav
+  artifactKey: Guid(221d5b4a95f9fc54c9bd5afc9bc3b4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/BackgroundMusic/Track4_Creeping Dread.wav using Guid(221d5b4a95f9fc54c9bd5afc9bc3b4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c254ce7cbf2170fe946550f67dee604') in 0.0057385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.010813 seconds.
+  path: Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/FlameRoundYellowParticle.mat
+  artifactKey: Guid(d7f098ed9997e714193be5e86df013f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/FlameRoundYellowParticle.mat using Guid(d7f098ed9997e714193be5e86df013f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84ed289e8e13a8203d272f223d4f5400') in 0.0712709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 683.584766 seconds.
+  path: Assets/Audio/SFX/752028__ricardoemfield__forest-fire-in-the-cerrado-biome-tocantins-brazil.wav
+  artifactKey: Guid(400bf3ac9105ebb488ea8444d90fe766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/752028__ricardoemfield__forest-fire-in-the-cerrado-biome-tocantins-brazil.wav using Guid(400bf3ac9105ebb488ea8444d90fe766) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b4ef1b1697e7237b8bda5157f431995') in 0.0235589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.959071 seconds.
+  path: Assets/Audio/SFX/752028__ricardoemfield__forest-fire-in-the-cerrado-biome-tocantins-brazil.wav
+  artifactKey: Guid(400bf3ac9105ebb488ea8444d90fe766) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/SFX/752028__ricardoemfield__forest-fire-in-the-cerrado-biome-tocantins-brazil.wav using Guid(400bf3ac9105ebb488ea8444d90fe766) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34bff2ef242800248110a53c40bdbb22') in 0.1072092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.134197 seconds.
+  path: Assets/Audio/SFX/391552__gpag1__monster-screams.wav
+  artifactKey: Guid(1775d2a7277d2d84bbfe968b60715b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/391552__gpag1__monster-screams.wav using Guid(1775d2a7277d2d84bbfe968b60715b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25a086b780b932440ac477515ed84b63') in 0.0062607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.999671 seconds.
+  path: Assets/Audio/SFX/391552__gpag1__monster-screams.wav
+  artifactKey: Guid(1775d2a7277d2d84bbfe968b60715b97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/SFX/391552__gpag1__monster-screams.wav using Guid(1775d2a7277d2d84bbfe968b60715b97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58f0ba6d0f93702e0c4b3802c291a4da') in 0.0271938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.580135 seconds.
+  path: Assets/Audio/SFX/monster-screams.wav
+  artifactKey: Guid(1775d2a7277d2d84bbfe968b60715b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/monster-screams.wav using Guid(1775d2a7277d2d84bbfe968b60715b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2648fb6d1f81c7857c9362e7a8e8a708') in 0.0058669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.947303 seconds.
+  path: Assets/Audio/SFX/monster-screams.wav
+  artifactKey: Guid(1775d2a7277d2d84bbfe968b60715b97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/SFX/monster-screams.wav using Guid(1775d2a7277d2d84bbfe968b60715b97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b9c0da910893f937b0429e2cda9b145') in 0.0262195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.838032 seconds.
+  path: Assets/Audio/SFX/752028__ricardoemfield__forest-fire-in-the-cerrado-biome-tocantins-brazil.wav
+  artifactKey: Guid(400bf3ac9105ebb488ea8444d90fe766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/752028__ricardoemfield__forest-fire-in-the-cerrado-biome-tocantins-brazil.wav using Guid(400bf3ac9105ebb488ea8444d90fe766) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '211c6446e0d52368b05c2d3a01761e50') in 0.0057607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.188371 seconds.
+  path: Assets/Audio/SFX/monster-screams.wav
+  artifactKey: Guid(1775d2a7277d2d84bbfe968b60715b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/monster-screams.wav using Guid(1775d2a7277d2d84bbfe968b60715b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e199050e99b573a942d32408b605850') in 0.0095194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.381170 seconds.
+  path: Assets/Audio/SFX/forest-fire-in-the-cerrado-biome.wav
+  artifactKey: Guid(400bf3ac9105ebb488ea8444d90fe766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/forest-fire-in-the-cerrado-biome.wav using Guid(400bf3ac9105ebb488ea8444d90fe766) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '302497d9aa98a2658847e192ffbed733') in 0.0060868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.957249 seconds.
+  path: Assets/Audio/SFX/forest-fire-in-the-cerrado-biome.wav
+  artifactKey: Guid(400bf3ac9105ebb488ea8444d90fe766) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/SFX/forest-fire-in-the-cerrado-biome.wav using Guid(400bf3ac9105ebb488ea8444d90fe766) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a77ebd5c9a0ab185a07b5e9ddf8b234') in 0.0162412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 599.050460 seconds.
+  path: Assets/Audio/SFX/543020__leon23323328kiwn__footsteps-on-wood-owi.wav
+  artifactKey: Guid(f449af96d50055044b78a6e2af400016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/543020__leon23323328kiwn__footsteps-on-wood-owi.wav using Guid(f449af96d50055044b78a6e2af400016) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2ab6d513d5b42d35610f7e05bf1c8a6') in 0.7772559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195010 seconds.
+  path: Assets/Audio/SFX/543020__leon23323328kiwn__footsteps-on-wood-owi.wav
+  artifactKey: Guid(f449af96d50055044b78a6e2af400016) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/SFX/543020__leon23323328kiwn__footsteps-on-wood-owi.wav using Guid(f449af96d50055044b78a6e2af400016) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'edc9a7459bd8ddb622bc25276bdb2434') in 0.0270111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.875531 seconds.
+  path: Assets/Audio/SFX/footsteps-on-Rock.wav
+  artifactKey: Guid(f449af96d50055044b78a6e2af400016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/footsteps-on-Rock.wav using Guid(f449af96d50055044b78a6e2af400016) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a48c4cbefaf45554c29d25d13f078927') in 0.0055025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.953479 seconds.
+  path: Assets/Audio/SFX/footsteps-on-Rock.wav
+  artifactKey: Guid(f449af96d50055044b78a6e2af400016) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/SFX/footsteps-on-Rock.wav using Guid(f449af96d50055044b78a6e2af400016) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70470b42a87a0d7259bcc742d8c58016') in 0.0264887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.305637 seconds.
+  path: Assets/Audio/SFX/630010__trexlasso__wood-footsteps.wav
+  artifactKey: Guid(97809b0289183144492d26c9a227df7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/630010__trexlasso__wood-footsteps.wav using Guid(97809b0289183144492d26c9a227df7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc2ba4e422e1f48e113a0327893e4932') in 0.3826571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.592093 seconds.
+  path: Assets/Audio/SFX/630010__trexlasso__wood-footsteps.wav
+  artifactKey: Guid(97809b0289183144492d26c9a227df7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/SFX/630010__trexlasso__wood-footsteps.wav using Guid(97809b0289183144492d26c9a227df7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfb2b3c1a7518ba35f47ee2eeaf74673') in 0.02686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.702753 seconds.
+  path: Assets/Audio/SFX/footsteps-on-Rock.wav
+  artifactKey: Guid(f449af96d50055044b78a6e2af400016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/footsteps-on-Rock.wav using Guid(f449af96d50055044b78a6e2af400016) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f20f83dabb0056731a46548670901250') in 0.0096637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.007443 seconds.
+  path: Assets/Audio/SFX/wood-footsteps.wav
+  artifactKey: Guid(97809b0289183144492d26c9a227df7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/wood-footsteps.wav using Guid(97809b0289183144492d26c9a227df7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8a46bacf1a43b5ced17ff4cc49ec7f1') in 0.0084455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.957274 seconds.
+  path: Assets/Audio/SFX/wood-footsteps.wav
+  artifactKey: Guid(97809b0289183144492d26c9a227df7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/SFX/wood-footsteps.wav using Guid(97809b0289183144492d26c9a227df7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a51e55fcc15db8b4c7facf06cd184930') in 0.0267216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.859364 seconds.
+  path: Assets/Audio/SFX/wood-footsteps.wav
+  artifactKey: Guid(97809b0289183144492d26c9a227df7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/wood-footsteps.wav using Guid(97809b0289183144492d26c9a227df7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30c8be8897490d0754a5ba98e9786d3a') in 0.0061007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 449.720598 seconds.
+  path: Assets/Audio/SFX/578524__samsterbirdies__calm-ocean-waves.flac
+  artifactKey: Guid(09ca58c83abd9c948bc4eda9b26d4004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/578524__samsterbirdies__calm-ocean-waves.flac using Guid(09ca58c83abd9c948bc4eda9b26d4004) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c04d3cb599e060bccf7bb309e30ddcc') in 0.0124859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.028274 seconds.
+  path: Assets/Audio/SFX/578524__samsterbirdies__calm-ocean-waves.flac
+  artifactKey: Guid(09ca58c83abd9c948bc4eda9b26d4004) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/SFX/578524__samsterbirdies__calm-ocean-waves.flac using Guid(09ca58c83abd9c948bc4eda9b26d4004) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f334736459cb27551ebdfa7dda122196') in 0.0297979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.752756 seconds.
+  path: Assets/Audio/SFX/ocean-waves.flac
+  artifactKey: Guid(09ca58c83abd9c948bc4eda9b26d4004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/ocean-waves.flac using Guid(09ca58c83abd9c948bc4eda9b26d4004) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67d2db284aec6dfd6871e44d55c3d19c') in 0.0053084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.962972 seconds.
+  path: Assets/Audio/SFX/ocean-waves.flac
+  artifactKey: Guid(09ca58c83abd9c948bc4eda9b26d4004) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/SFX/ocean-waves.flac using Guid(09ca58c83abd9c948bc4eda9b26d4004) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62487fc334d467e4da189fd934a2d6bd') in 0.0270066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.081038 seconds.
+  path: Assets/Audio/SFX/ocean-waves.flac
+  artifactKey: Guid(09ca58c83abd9c948bc4eda9b26d4004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/ocean-waves.flac using Guid(09ca58c83abd9c948bc4eda9b26d4004) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1affd1f1eafc3be22d5f9ec6aa8ed38d') in 0.0058651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.811063 seconds.
+  path: Assets/Audio/SFX/ocean-waves.flac
+  artifactKey: Guid(09ca58c83abd9c948bc4eda9b26d4004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/ocean-waves.flac using Guid(09ca58c83abd9c948bc4eda9b26d4004) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4854a2636b33d50ff0159eacbc67a7e') in 0.0056056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 458.016645 seconds.
+  path: Assets/Audio/SFX/87578__shimsewn__radioedit-005.wav
+  artifactKey: Guid(7b9840b0920c5b348994f1fee6312b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/87578__shimsewn__radioedit-005.wav using Guid(7b9840b0920c5b348994f1fee6312b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f1bcd75ced01db3fbb724d23c3fd8b4') in 0.0283443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.942591 seconds.
+  path: Assets/Audio/SFX/87578__shimsewn__radioedit-005.wav
+  artifactKey: Guid(7b9840b0920c5b348994f1fee6312b58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/SFX/87578__shimsewn__radioedit-005.wav using Guid(7b9840b0920c5b348994f1fee6312b58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f7ca46aa0d29ae6dffb8c2d498afbaa') in 0.0308182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.466512 seconds.
+  path: Assets/Audio/SFX/radioedit.wav
+  artifactKey: Guid(7b9840b0920c5b348994f1fee6312b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/radioedit.wav using Guid(7b9840b0920c5b348994f1fee6312b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2db38b9202e999024991a0ad1d8d19b0') in 0.0108556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.964071 seconds.
+  path: Assets/Audio/SFX/radioedit.wav
+  artifactKey: Guid(7b9840b0920c5b348994f1fee6312b58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/SFX/radioedit.wav using Guid(7b9840b0920c5b348994f1fee6312b58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5a06ae25e3057c317a9ca38adcdff10') in 0.0259752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.547344 seconds.
+  path: Assets/Audio/SFX/radioedit.wav
+  artifactKey: Guid(7b9840b0920c5b348994f1fee6312b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/radioedit.wav using Guid(7b9840b0920c5b348994f1fee6312b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2653fc6e9cc20c80bdff32f89f864688') in 0.0059251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.408916 seconds.
+  path: Assets/Audio/SFX/radioedit.wav
+  artifactKey: Guid(7b9840b0920c5b348994f1fee6312b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/radioedit.wav using Guid(7b9840b0920c5b348994f1fee6312b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be12054a475caa5a3b338e93b3a2b265') in 0.0064275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1367.592111 seconds.
+  path: Assets/Audio/BackgroundMusic/Geneeral_Ambient.wav
+  artifactKey: Guid(221d5b4a95f9fc54c9bd5afc9bc3b4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/BackgroundMusic/Geneeral_Ambient.wav using Guid(221d5b4a95f9fc54c9bd5afc9bc3b4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ad8c02de5ad4e08e5221bfc0544de50') in 0.0093854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.883600 seconds.
+  path: Assets/Audio/BackgroundMusic/Geneeral_Ambient.wav
+  artifactKey: Guid(221d5b4a95f9fc54c9bd5afc9bc3b4a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/BackgroundMusic/Geneeral_Ambient.wav using Guid(221d5b4a95f9fc54c9bd5afc9bc3b4a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ab5bd9a83f4775094b9bd898feaf0a5') in 0.0165307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.540738 seconds.
+  path: Assets/Audio/BackgroundMusic/lumivexasset-jumpscare-sound-effect-256050.mp3
+  artifactKey: Guid(e0e147d2ed08d2642844d3771fd3448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/BackgroundMusic/lumivexasset-jumpscare-sound-effect-256050.mp3 using Guid(e0e147d2ed08d2642844d3771fd3448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '188ea13875550e14a6f927a12ea0714b') in 0.0062324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.016847 seconds.
+  path: Assets/Audio/BackgroundMusic/lumivexasset-jumpscare-sound-effect-256050.mp3
+  artifactKey: Guid(e0e147d2ed08d2642844d3771fd3448a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/BackgroundMusic/lumivexasset-jumpscare-sound-effect-256050.mp3 using Guid(e0e147d2ed08d2642844d3771fd3448a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e706289f3c9c406f18128e8f25bd15a') in 0.0273948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.564223 seconds.
+  path: Assets/Audio/BackgroundMusic/lumivexasset-jumpscare-sound-effect-256050.mp3
+  artifactKey: Guid(e0e147d2ed08d2642844d3771fd3448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/BackgroundMusic/lumivexasset-jumpscare-sound-effect-256050.mp3 using Guid(e0e147d2ed08d2642844d3771fd3448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bcb65582eb82f0ada07cc6e3593686a') in 0.0107787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 234.664101 seconds.
+  path: Assets/Audio/BackgroundMusic/lumivexasset-jumpscare-sound-effect-256050.mp3
+  artifactKey: Guid(e0e147d2ed08d2642844d3771fd3448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/BackgroundMusic/lumivexasset-jumpscare-sound-effect-256050.mp3 using Guid(e0e147d2ed08d2642844d3771fd3448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ae46880b6552fc50f8119723a674e95') in 0.0098879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
