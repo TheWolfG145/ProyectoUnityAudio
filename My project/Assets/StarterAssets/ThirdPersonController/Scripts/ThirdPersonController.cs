@@ -33,6 +33,11 @@ namespace StarterAssets
         public AudioSource AudioFoley;
         public AudioClip LandingAudioClip;
         public AudioClip[] FootstepAudioClips;
+
+        [Header("Sonidos por Superficie")]
+        public AudioClip[] pasosMadera;
+        public AudioClip[] pasosPiedra;
+
         [Range(0, 1)] public float FootstepAudioVolume = 0.5f;
 
         [Space(10)]
@@ -376,11 +381,37 @@ namespace StarterAssets
         {
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
-
                 if (AudioFootsteps != null)
-                    AudioFootsteps.Play();
-                if (AudioFoley != null)
-                    AudioFoley.Play();
+                {
+                    RaycastHit hit;              
+                    if (Physics.Raycast(transform.position + Vector3.up, Vector3.down, out hit, 1.5f))
+                    {
+                        AudioClip clipSeleccionado = null;
+
+                        switch (hit.collider.tag)
+                        {
+                            case "Madera":
+                                clipSeleccionado = pasosMadera[Random.Range(0, pasosMadera.Length)];
+                                break;
+                            case "Piedra":
+                                clipSeleccionado = pasosPiedra[Random.Range(0, pasosPiedra.Length)];
+                                break;
+                            default:
+                                // Sonido por defecto si no es ni madera ni piedra
+                                if (FootstepAudioClips.Length > 0)
+                                    clipSeleccionado = FootstepAudioClips[Random.Range(0, FootstepAudioClips.Length)];
+                                break;
+                        }
+
+                        // Reproducimos el clip correspondiente
+                        if (clipSeleccionado != null)
+                        {
+                            AudioFootsteps.PlayOneShot(clipSeleccionado, FootstepAudioVolume);
+                        }
+                    }
+                }
+
+                if (AudioFoley != null) AudioFoley.Play();
             }
         }
 

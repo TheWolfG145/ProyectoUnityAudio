@@ -243,6 +243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs_wood_spiral 4
       objectReference: {fileID: 0}
+    - target: {fileID: 182006, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
+      propertyPath: m_TagString
+      value: Madera
+      objectReference: {fileID: 0}
     - target: {fileID: 415854, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -641,6 +645,10 @@ PrefabInstance:
     - target: {fileID: 102502, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
       propertyPath: m_Name
       value: building_segment_22
+      objectReference: {fileID: 0}
+    - target: {fileID: 102502, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
       objectReference: {fileID: 0}
     - target: {fileID: 436916, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
       propertyPath: m_RootOrder
@@ -1530,6 +1538,10 @@ PrefabInstance:
     - target: {fileID: 166568, guid: dee3db12ee2f57c41af34c16d2fde197, type: 3}
       propertyPath: m_Name
       value: building_segment_8
+      objectReference: {fileID: 0}
+    - target: {fileID: 166568, guid: dee3db12ee2f57c41af34c16d2fde197, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
       objectReference: {fileID: 0}
     - target: {fileID: 481908, guid: dee3db12ee2f57c41af34c16d2fde197, type: 3}
       propertyPath: m_RootOrder
@@ -2630,6 +2642,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
+--- !u!4 &245486913 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+  m_PrefabInstance: {fileID: 649497134}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &245773447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2946,6 +2963,10 @@ PrefabInstance:
     - target: {fileID: 102502, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
       propertyPath: m_Name
       value: building_segment_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 102502, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
       objectReference: {fileID: 0}
     - target: {fileID: 436916, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
       propertyPath: m_RootOrder
@@ -3346,6 +3367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dock_7
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
+      propertyPath: m_TagString
+      value: Madera
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
       propertyPath: m_RootOrder
       value: 151
@@ -3465,6 +3490,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
       propertyPath: m_Name
       value: dock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
+      propertyPath: m_TagString
+      value: Madera
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
       propertyPath: m_RootOrder
@@ -3846,6 +3875,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
       propertyPath: m_Name
       value: dock_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
+      propertyPath: m_TagString
+      value: Madera
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
       propertyPath: m_RootOrder
@@ -4307,6 +4340,10 @@ PrefabInstance:
     - target: {fileID: 183736, guid: c5d5f1d29f2e94e45b0022124ff1f27f, type: 3}
       propertyPath: m_Name
       value: ladder_7
+      objectReference: {fileID: 0}
+    - target: {fileID: 183736, guid: c5d5f1d29f2e94e45b0022124ff1f27f, type: 3}
+      propertyPath: m_TagString
+      value: Madera
       objectReference: {fileID: 0}
     - target: {fileID: 457206, guid: c5d5f1d29f2e94e45b0022124ff1f27f, type: 3}
       propertyPath: m_RootOrder
@@ -4892,7 +4929,7 @@ GameObject:
   - component: {fileID: 379617300}
   m_Layer: 0
   m_Name: Plane (5)
-  m_TagString: Untagged
+  m_TagString: Piedra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5153,6 +5190,10 @@ PrefabInstance:
     - target: {fileID: 182006, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
       propertyPath: m_Name
       value: stairs_wood_spiral 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 182006, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
+      propertyPath: m_TagString
+      value: Madera
       objectReference: {fileID: 0}
     - target: {fileID: 415854, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
       propertyPath: m_RootOrder
@@ -5630,6 +5671,135 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 436916, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
   m_PrefabInstance: {fileID: 1447336230}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &431292023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 431292025}
+  - component: {fileID: 431292024}
+  m_Layer: 8
+  m_Name: Audio_pasos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &431292024
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431292023}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 6599000919160688793, guid: 47663ac2e85223a4494044348e81eef6, type: 2}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &431292025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431292023}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 245486913}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &438733920
 GameObject:
   m_ObjectHideFlags: 0
@@ -6035,6 +6205,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 849963532}
     m_Modifications:
+    - target: {fileID: 144710, guid: ad9456229c007a24ba9e3d21745ddb59, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
+      objectReference: {fileID: 0}
     - target: {fileID: 423442, guid: ad9456229c007a24ba9e3d21745ddb59, type: 3}
       propertyPath: m_RootOrder
       value: 112
@@ -6556,6 +6730,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 849963532}
     m_Modifications:
+    - target: {fileID: 102502, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
+      objectReference: {fileID: 0}
     - target: {fileID: 436916, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
       propertyPath: m_RootOrder
       value: 242
@@ -7074,6 +7252,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_segment_4
       objectReference: {fileID: 0}
+    - target: {fileID: 102502, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
+      objectReference: {fileID: 0}
     - target: {fileID: 436916, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
       propertyPath: m_RootOrder
       value: 240
@@ -7180,6 +7362,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 849963532}
     m_Modifications:
+    - target: {fileID: 182006, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
+      propertyPath: m_TagString
+      value: Madera
+      objectReference: {fileID: 0}
     - target: {fileID: 415854, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
       propertyPath: m_RootOrder
       value: 174
@@ -7392,6 +7578,10 @@ PrefabInstance:
     - target: {fileID: 126774, guid: 8fb5db1b50a4ab341a6b80aff9aa352c, type: 3}
       propertyPath: m_Name
       value: building_segment_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 126774, guid: 8fb5db1b50a4ab341a6b80aff9aa352c, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
       objectReference: {fileID: 0}
     - target: {fileID: 426730, guid: 8fb5db1b50a4ab341a6b80aff9aa352c, type: 3}
       propertyPath: m_RootOrder
@@ -8429,15 +8619,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.9189901
+      value: -16.83
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.523496
+      value: 9.88
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.1140823
+      value: 27.28
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8471,10 +8661,49 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerArmature
       objectReference: {fileID: 0}
+    - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: AudioFootsteps
+      value: 
+      objectReference: {fileID: 431292024}
+    - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: pasosMadera.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: pasosPiedra.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: 'pasosMadera.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: eeccb506493cdac47afc19d75908c371, type: 3}
+    - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: 'pasosMadera.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 74e2961a8c3178b4fa0465e3ce3b69e8, type: 3}
+    - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: 'pasosMadera.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: e7c95010b6cc5be4fb2496b12f51e274, type: 3}
+    - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: 'pasosPiedra.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 05366955c1281c744992fb11392fb3a5, type: 3}
+    - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: 'pasosPiedra.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 8dddec1be6b2f324d9dccc3e06385b5d, type: 3}
+    - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: FootstepAudioClips.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 21805789073193842, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 431292025}
     - targetCorrespondingSourceObject: {fileID: 8338988566280778637, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1731783109}
@@ -8749,6 +8978,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_segment_5
       objectReference: {fileID: 0}
+    - target: {fileID: 102502, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
+      objectReference: {fileID: 0}
     - target: {fileID: 436916, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
       propertyPath: m_RootOrder
       value: 243
@@ -8981,6 +9214,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 849963532}
     m_Modifications:
+    - target: {fileID: 166568, guid: dee3db12ee2f57c41af34c16d2fde197, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
+      objectReference: {fileID: 0}
     - target: {fileID: 481908, guid: dee3db12ee2f57c41af34c16d2fde197, type: 3}
       propertyPath: m_RootOrder
       value: 334
@@ -9715,7 +9952,7 @@ GameObject:
   - component: {fileID: 748632230}
   m_Layer: 0
   m_Name: Plane (4)
-  m_TagString: Untagged
+  m_TagString: Piedra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10608,7 +10845,7 @@ GameObject:
   - component: {fileID: 834029013}
   m_Layer: 0
   m_Name: Plane (10)
-  m_TagString: Untagged
+  m_TagString: Piedra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10944,7 +11181,7 @@ GameObject:
   - component: {fileID: 849445023}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Piedra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12279,6 +12516,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 849963532}
     m_Modifications:
+    - target: {fileID: 113290, guid: cc1d1788a682d5048af84a0fc6178911, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
+      objectReference: {fileID: 0}
     - target: {fileID: 431894, guid: cc1d1788a682d5048af84a0fc6178911, type: 3}
       propertyPath: m_RootOrder
       value: 91
@@ -13465,6 +13706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dock_6
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
+      propertyPath: m_TagString
+      value: Madera
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
       propertyPath: m_RootOrder
       value: 231
@@ -13660,6 +13905,10 @@ PrefabInstance:
     - target: {fileID: 182006, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
       propertyPath: m_Name
       value: stairs_wood_spiral 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 182006, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
+      propertyPath: m_TagString
+      value: Madera
       objectReference: {fileID: 0}
     - target: {fileID: 415854, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
       propertyPath: m_RootOrder
@@ -14260,6 +14509,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 849963532}
     m_Modifications:
+    - target: {fileID: 100000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
+      propertyPath: m_TagString
+      value: Madera
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
       propertyPath: m_RootOrder
       value: 215
@@ -14637,6 +14890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_segment_14
       objectReference: {fileID: 0}
+    - target: {fileID: 122226, guid: 7d609f7b85b8b834c967c9708aa167ee, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
+      objectReference: {fileID: 0}
     - target: {fileID: 468674, guid: 7d609f7b85b8b834c967c9708aa167ee, type: 3}
       propertyPath: m_RootOrder
       value: 283
@@ -14759,6 +15016,10 @@ PrefabInstance:
     - target: {fileID: 126774, guid: 8fb5db1b50a4ab341a6b80aff9aa352c, type: 3}
       propertyPath: m_Name
       value: building_segment_33
+      objectReference: {fileID: 0}
+    - target: {fileID: 126774, guid: 8fb5db1b50a4ab341a6b80aff9aa352c, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
       objectReference: {fileID: 0}
     - target: {fileID: 426730, guid: 8fb5db1b50a4ab341a6b80aff9aa352c, type: 3}
       propertyPath: m_RootOrder
@@ -16047,7 +16308,7 @@ GameObject:
   - component: {fileID: 1167692676}
   m_Layer: 0
   m_Name: Plane (11)
-  m_TagString: Untagged
+  m_TagString: Piedra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -16157,6 +16418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_segment_23
       objectReference: {fileID: 0}
+    - target: {fileID: 102502, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
+      objectReference: {fileID: 0}
     - target: {fileID: 436916, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
       propertyPath: m_RootOrder
       value: 284
@@ -16210,6 +16475,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 849963532}
     m_Modifications:
+    - target: {fileID: 194054, guid: 60a7c2536ae44384a9181dd65cb6d107, type: 3}
+      propertyPath: m_TagString
+      value: Madera
+      objectReference: {fileID: 0}
     - target: {fileID: 444898, guid: 60a7c2536ae44384a9181dd65cb6d107, type: 3}
       propertyPath: m_RootOrder
       value: 262
@@ -16468,6 +16737,10 @@ PrefabInstance:
     - target: {fileID: 166568, guid: dee3db12ee2f57c41af34c16d2fde197, type: 3}
       propertyPath: m_Name
       value: building_segment_18
+      objectReference: {fileID: 0}
+    - target: {fileID: 166568, guid: dee3db12ee2f57c41af34c16d2fde197, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
       objectReference: {fileID: 0}
     - target: {fileID: 481908, guid: dee3db12ee2f57c41af34c16d2fde197, type: 3}
       propertyPath: m_RootOrder
@@ -17083,7 +17356,7 @@ GameObject:
   - component: {fileID: 1211533534}
   m_Layer: 0
   m_Name: Plane (9)
-  m_TagString: Untagged
+  m_TagString: Piedra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -17327,6 +17600,10 @@ PrefabInstance:
     - target: {fileID: 126774, guid: 8fb5db1b50a4ab341a6b80aff9aa352c, type: 3}
       propertyPath: m_Name
       value: building_segment_15
+      objectReference: {fileID: 0}
+    - target: {fileID: 126774, guid: 8fb5db1b50a4ab341a6b80aff9aa352c, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
       objectReference: {fileID: 0}
     - target: {fileID: 426730, guid: 8fb5db1b50a4ab341a6b80aff9aa352c, type: 3}
       propertyPath: m_RootOrder
@@ -17653,6 +17930,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_segment_6
       objectReference: {fileID: 0}
+    - target: {fileID: 102502, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
+      objectReference: {fileID: 0}
     - target: {fileID: 436916, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
       propertyPath: m_RootOrder
       value: 246
@@ -17949,6 +18230,62 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4154bf6e40fe42543a525d9b4fbc965f, type: 3}
+--- !u!1 &1263451452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1263451454}
+  - component: {fileID: 1263451453}
+  m_Layer: 0
+  m_Name: Audio Reverb Zone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!167 &1263451453
+AudioReverbZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263451452}
+  m_Enabled: 1
+  m_MinDistance: 5.133932
+  m_MaxDistance: 5.277401
+  m_ReverbPreset: 1
+  m_Room: -1000
+  m_RoomHF: -100
+  m_DecayTime: 1.49
+  m_DecayHFRatio: 0.83
+  m_Reflections: -2602
+  m_ReflectionsDelay: 0.007
+  m_Reverb: 200
+  m_ReverbDelay: 0.011
+  m_HFReference: 5000
+  m_Diffusion: 100
+  m_Density: 100
+  m_LFReference: 250
+  m_RoomLF: 0
+--- !u!4 &1263451454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263451452}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -19.12, y: 10.55, z: 31.98}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1274307839 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 436916, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
@@ -18423,6 +18760,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 928912699}
     m_Modifications:
+    - target: {fileID: 182006, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
+      propertyPath: m_TagString
+      value: Madera
+      objectReference: {fileID: 0}
     - target: {fileID: 415854, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -19383,6 +19724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_segment_21
       objectReference: {fileID: 0}
+    - target: {fileID: 166568, guid: dee3db12ee2f57c41af34c16d2fde197, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
+      objectReference: {fileID: 0}
     - target: {fileID: 481908, guid: dee3db12ee2f57c41af34c16d2fde197, type: 3}
       propertyPath: m_RootOrder
       value: 280
@@ -19750,6 +20095,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_segment_9
       objectReference: {fileID: 0}
+    - target: {fileID: 166568, guid: dee3db12ee2f57c41af34c16d2fde197, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
+      objectReference: {fileID: 0}
     - target: {fileID: 481908, guid: dee3db12ee2f57c41af34c16d2fde197, type: 3}
       propertyPath: m_RootOrder
       value: 327
@@ -19806,6 +20155,10 @@ PrefabInstance:
     - target: {fileID: 182006, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
       propertyPath: m_Name
       value: stairs_wood_spiral 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 182006, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
+      propertyPath: m_TagString
+      value: Madera
       objectReference: {fileID: 0}
     - target: {fileID: 415854, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
       propertyPath: m_RootOrder
@@ -20228,6 +20581,10 @@ PrefabInstance:
     - target: {fileID: 102502, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
       propertyPath: m_Name
       value: building_segment_24
+      objectReference: {fileID: 0}
+    - target: {fileID: 102502, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
       objectReference: {fileID: 0}
     - target: {fileID: 436916, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
       propertyPath: m_RootOrder
@@ -21103,6 +21460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dock_8
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
+      propertyPath: m_TagString
+      value: Madera
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
       propertyPath: m_RootOrder
       value: 264
@@ -21358,6 +21719,10 @@ PrefabInstance:
     - target: {fileID: 102502, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
       propertyPath: m_Name
       value: building_segment_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 102502, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
       objectReference: {fileID: 0}
     - target: {fileID: 436916, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
       propertyPath: m_RootOrder
@@ -22379,7 +22744,7 @@ GameObject:
   - component: {fileID: 1622890463}
   m_Layer: 0
   m_Name: Plane (8)
-  m_TagString: Untagged
+  m_TagString: Piedra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -23480,7 +23845,7 @@ GameObject:
   - component: {fileID: 1731120838}
   m_Layer: 0
   m_Name: Plane (1)
-  m_TagString: Untagged
+  m_TagString: Piedra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -24192,7 +24557,7 @@ GameObject:
   - component: {fileID: 1765264845}
   m_Layer: 0
   m_Name: Plane (7)
-  m_TagString: Untagged
+  m_TagString: Piedra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -24369,6 +24734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_segment_19
       objectReference: {fileID: 0}
+    - target: {fileID: 103512, guid: 94de232499f0e2344a01df0f4013ddd2, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
+      objectReference: {fileID: 0}
     - target: {fileID: 442320, guid: 94de232499f0e2344a01df0f4013ddd2, type: 3}
       propertyPath: m_RootOrder
       value: 218
@@ -24483,7 +24852,7 @@ GameObject:
   - component: {fileID: 1781302757}
   m_Layer: 0
   m_Name: Plane (6)
-  m_TagString: Untagged
+  m_TagString: Piedra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -24593,6 +24962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ladder_8
       objectReference: {fileID: 0}
+    - target: {fileID: 183736, guid: c5d5f1d29f2e94e45b0022124ff1f27f, type: 3}
+      propertyPath: m_TagString
+      value: Madera
+      objectReference: {fileID: 0}
     - target: {fileID: 457206, guid: c5d5f1d29f2e94e45b0022124ff1f27f, type: 3}
       propertyPath: m_RootOrder
       value: 308
@@ -24641,6 +25014,10 @@ PrefabInstance:
     - target: {fileID: 183736, guid: c5d5f1d29f2e94e45b0022124ff1f27f, type: 3}
       propertyPath: m_Name
       value: ladder_9
+      objectReference: {fileID: 0}
+    - target: {fileID: 183736, guid: c5d5f1d29f2e94e45b0022124ff1f27f, type: 3}
+      propertyPath: m_TagString
+      value: Madera
       objectReference: {fileID: 0}
     - target: {fileID: 457206, guid: c5d5f1d29f2e94e45b0022124ff1f27f, type: 3}
       propertyPath: m_RootOrder
@@ -25101,6 +25478,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_segment_7
       objectReference: {fileID: 0}
+    - target: {fileID: 102502, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
+      objectReference: {fileID: 0}
     - target: {fileID: 436916, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
       propertyPath: m_RootOrder
       value: 261
@@ -25237,6 +25618,10 @@ PrefabInstance:
     - target: {fileID: 166568, guid: dee3db12ee2f57c41af34c16d2fde197, type: 3}
       propertyPath: m_Name
       value: building_segment_48
+      objectReference: {fileID: 0}
+    - target: {fileID: 166568, guid: dee3db12ee2f57c41af34c16d2fde197, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
       objectReference: {fileID: 0}
     - target: {fileID: 481908, guid: dee3db12ee2f57c41af34c16d2fde197, type: 3}
       propertyPath: m_RootOrder
@@ -26021,6 +26406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_segment_20
       objectReference: {fileID: 0}
+    - target: {fileID: 102502, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
+      objectReference: {fileID: 0}
     - target: {fileID: 436916, guid: 287711fb95cdc004b814e53a055b4b1e, type: 3}
       propertyPath: m_RootOrder
       value: 268
@@ -26735,7 +27124,7 @@ GameObject:
   - component: {fileID: 1973186679}
   m_Layer: 0
   m_Name: Plane (2)
-  m_TagString: Untagged
+  m_TagString: Piedra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26919,13 +27308,85 @@ PrefabInstance:
       value: 0.247
       objectReference: {fileID: 0}
     - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: MaxDistance
+      value: 5.6758137
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
       propertyPath: MinDistance
-      value: 1.31
+      value: 2.7352943
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: rolloffMode
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
       propertyPath: OutputAudioMixerGroup
       value: 
       objectReference: {fileID: 6599000919160688793, guid: 47663ac2e85223a4494044348e81eef6, type: 2}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].time
+      value: 0.502253
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].time
+      value: 0.9942627
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: spreadCustomCurve.m_Curve.Array.data[0].value
+      value: 0.11111111
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].value
+      value: 0.9957695
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0.9957695
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].inSlope
+      value: -1.1025862
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].inSlope
+      value: -1.5641601
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].inWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].outSlope
+      value: -1.1025862
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].inWeight
+      value: 0.18691467
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].outSlope
+      value: -1.5641601
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].outWeight
+      value: 0.25240108
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].outWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847196330687717124, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 1.016922
+      objectReference: {fileID: 0}
     - target: {fileID: 7463044300355638554, guid: 571c6641f7744224dac64a8df2c54629, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.524
@@ -27447,6 +27908,10 @@ PrefabInstance:
     - target: {fileID: 126774, guid: 8fb5db1b50a4ab341a6b80aff9aa352c, type: 3}
       propertyPath: m_Name
       value: building_segment_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 126774, guid: 8fb5db1b50a4ab341a6b80aff9aa352c, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
       objectReference: {fileID: 0}
     - target: {fileID: 426730, guid: 8fb5db1b50a4ab341a6b80aff9aa352c, type: 3}
       propertyPath: m_RootOrder
@@ -28144,6 +28609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_segment_3
       objectReference: {fileID: 0}
+    - target: {fileID: 145734, guid: e2815925c4988c3438817c46d19d1b3f, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
+      objectReference: {fileID: 0}
     - target: {fileID: 443522, guid: e2815925c4988c3438817c46d19d1b3f, type: 3}
       propertyPath: m_RootOrder
       value: 222
@@ -28195,7 +28664,7 @@ GameObject:
   - component: {fileID: 2059031542}
   m_Layer: 0
   m_Name: Plane (12)
-  m_TagString: Untagged
+  m_TagString: Piedra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -28305,6 +28774,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs_wood_spiral 1
       objectReference: {fileID: 0}
+    - target: {fileID: 182006, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
+      propertyPath: m_TagString
+      value: Madera
+      objectReference: {fileID: 0}
     - target: {fileID: 415854, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -28356,7 +28829,7 @@ GameObject:
   - component: {fileID: 2064773483}
   m_Layer: 0
   m_Name: Plane (3)
-  m_TagString: Untagged
+  m_TagString: Piedra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -28815,6 +29288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs_wood_spiral 3
       objectReference: {fileID: 0}
+    - target: {fileID: 182006, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
+      propertyPath: m_TagString
+      value: Madera
+      objectReference: {fileID: 0}
     - target: {fileID: 415854, guid: 8f2ca0f54f293944f98bea8d9cdb2ceb, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -29133,6 +29610,10 @@ PrefabInstance:
     - target: {fileID: 126774, guid: 8fb5db1b50a4ab341a6b80aff9aa352c, type: 3}
       propertyPath: m_Name
       value: building_segment_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 126774, guid: 8fb5db1b50a4ab341a6b80aff9aa352c, type: 3}
+      propertyPath: m_TagString
+      value: Piedra
       objectReference: {fileID: 0}
     - target: {fileID: 426730, guid: 8fb5db1b50a4ab341a6b80aff9aa352c, type: 3}
       propertyPath: m_RootOrder
@@ -29513,6 +29994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dock_9
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
+      propertyPath: m_TagString
+      value: Madera
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8dbbd17831aecb419cf9f688e85e672, type: 3}
       propertyPath: m_RootOrder
       value: 258
@@ -29793,3 +30278,4 @@ SceneRoots:
   - {fileID: 1979141531}
   - {fileID: 1311990699}
   - {fileID: 665668553}
+  - {fileID: 1263451454}
