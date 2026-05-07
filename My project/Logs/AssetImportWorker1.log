@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/staging' branch; Version is '6000.2.9f1 (e0c4e791ab71) revision 14730471'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo" at "2026-05-07T15:02:05.1396911Z"
 OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'es' Physical Memory: 32716 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo" at "2026-05-07T22:02:31.3671707Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-05-07T15:02:05Z
+Date: 2026-05-07T22:02:31Z
 
 COMMAND LINE ARGUMENTS:
 B:\Unity\UnityInstalls\6000.2.9f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ B:/Clase/ProyectoUnityAudio/My project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54263
+49338
 -licensingIpc
 LicenseClient-victo
 -job-worker-count
@@ -65,14 +65,14 @@ B:/Clase/ProyectoUnityAudio/My project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [45156]  Target information:
+Player connection [60952]  Target information:
 
-Player connection [45156]  * "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 3100803189 [EditorId] 3100803189 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [60952]  * "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 1667935395 [EditorId] 1667935395 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [45156]  * "[IP] 172.23.80.1 [Port] 0 [Flags] 2 [Guid] 3100803189 [EditorId] 3100803189 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [60952]  * "[IP] 172.23.80.1 [Port] 0 [Flags] 2 [Guid] 1667935395 [EditorId] 1667935395 [Version] 1048832 [Id] WindowsEditor(7,Victor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [45156] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [45156] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [60952] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [60952] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -81,13 +81,13 @@ Input System module state changed to: Initialized.
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              3a693b1a157a401c83c64588aef95a85
+  Session Id:              41435294990b40b49dc42a92fcf96986
   Correlation Id:          816985fcc7594f27398727a8a9b1e37a
-  External correlation Id: 8451460001784405291
+  External correlation Id: 5658195467002067693
   Machine Id:              QMr05shRFa1wtlgs+6uLKGQOFKQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-victo" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo-notifications" at "2026-05-07T15:02:05.1945564Z"
-[Licensing::Module] Licensing Background thread has ended after 0.06s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-victo" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-victo-notifications" at "2026-05-07T22:02:31.4337375Z"
+[Licensing::Module] Licensing Background thread has ended after 0.07s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -95,7 +95,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.9f1 (e0c4e791ab71)
 [Subsystems] Discovering subsystems at path B:/Unity/UnityInstalls/6000.2.9f1/Editor/Data/Resources/UnitySubsystems
@@ -111,7 +111,7 @@ Initialize mono
 Mono path[0] = 'B:/Unity/UnityInstalls/6000.2.9f1/Editor/Data/Managed'
 Mono path[1] = 'B:/Unity/UnityInstalls/6000.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'B:/Unity/UnityInstalls/6000.2.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: B:/Unity/UnityInstalls/6000.2.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -128,41 +128,41 @@ Register platform support module: B:/Unity/UnityInstalls/6000.2.9f1/Editor/Data/
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: B:/Unity/UnityInstalls/6000.2.9f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.005721 seconds.
-- Loaded All Assemblies, in  0.484 seconds
+Registered in 0.003885 seconds.
+- Loaded All Assemblies, in  0.489 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.348 seconds
-Domain Reload Profiling: 832ms
-	BeginReloadAssembly (193ms)
+- Finished resetting the current domain, in  0.399 seconds
+Domain Reload Profiling: 887ms
+	BeginReloadAssembly (190ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
+	RebuildCommonClasses (44ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (187ms)
-		LoadAssemblies (193ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (193ms)
+		LoadAssemblies (191ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (182ms)
-			TypeCache.Refresh (180ms)
-				TypeCache.ScanAssembly (163ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (171ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (349ms)
+	FinalizeReload (399ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (306ms)
+		SetupLoadedEditorAssemblies (361ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
+			InitializePlatformSupportModulesInManaged (52ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (130ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -182,8 +182,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.793 seconds
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.755 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -192,850 +192,206 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.652 seconds
-Domain Reload Profiling: 1444ms
-	BeginReloadAssembly (251ms)
+- Finished resetting the current domain, in  0.601 seconds
+Domain Reload Profiling: 1355ms
+	BeginReloadAssembly (242ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
+		CreateAndSetChildDomain (36ms)
 	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (447ms)
-		LoadAssemblies (401ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (404ms)
+		LoadAssemblies (359ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (207ms)
-			TypeCache.Refresh (166ms)
-				TypeCache.ScanAssembly (153ms)
-			BuildScriptInfoCaches (30ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (652ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (149ms)
+			BuildScriptInfoCaches (29ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (602ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (521ms)
+		SetupLoadedEditorAssemblies (485ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (113ms)
-			ProcessInitializeOnLoadAttributes (368ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 3876 unused Assets / (1.1 MB). Loaded Objects now: 4376.
 Memory consumption went from 85.4 MB to 84.3 MB.
-Total: 11.906500 ms (FindLiveObjects: 0.910800 ms CreateObjectMapping: 0.321600 ms MarkObjects: 8.738900 ms  DeleteObjects: 1.932700 ms)
+Total: 6.655800 ms (FindLiveObjects: 0.585700 ms CreateObjectMapping: 0.162900 ms MarkObjects: 4.696600 ms  DeleteObjects: 1.209100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 158160.919632 seconds.
-  path: Assets/Audio/MasterMixer.mixer
-  artifactKey: Guid(47663ac2e85223a4494044348e81eef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/MasterMixer.mixer using Guid(47663ac2e85223a4494044348e81eef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: 'b30112b4bceb87918d9afe13a1040cac') in 0.0351869 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 183387.100759 seconds.
+  path: Assets/StarterAssets/Environment
+  artifactKey: Guid(8d8da06649314d7498296c53b4a0a77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment using Guid(8d8da06649314d7498296c53b4a0a77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e2d69e99685fb2999236dde2176fade') in 0.0200304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 506.525423 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Prefabs/NestedParentArmature_Unpack.prefab
-  artifactKey: Guid(c708a3b79cd542b42bbfedb17e213bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/NestedParentArmature_Unpack.prefab using Guid(c708a3b79cd542b42bbfedb17e213bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5c728d153e3d5501df52f88f7010695') in 0.2743234 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 564
+  Time since last request: 1177.910205 seconds.
+  path: Assets/Old Sea Port/mesh/boat_1.fbx
+  artifactKey: Guid(b28782be19c0382489f049a8c11e11ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/boat_1.fbx using Guid(b28782be19c0382489f049a8c11e11ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80c9fc3741690f118a410754f8cae138') in 0.2542827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerFollowCamera.prefab
-  artifactKey: Guid(a1a802ecaf6775746bb2a929fb554ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerFollowCamera.prefab using Guid(a1a802ecaf6775746bb2a929fb554ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3135aedfa829a451ba20405b502b5f88') in 0.0021879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000031 seconds.
+  path: Assets/Old Sea Port/mesh/fence_segment_2.fbx
+  artifactKey: Guid(4d665f3a611984d47996c09173f54b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/fence_segment_2.fbx using Guid(4d665f3a611984d47996c09173f54b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56af38a8072cdcdf1bdcaf6dc963979e') in 0.0389255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerCapsule.prefab
-  artifactKey: Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerCapsule.prefab using Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97c48e13998cba5270f18653546c2bfd') in 0.0434753 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.585887 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial
-  artifactKey: Guid(8e48a96595df5904da1626980936ebf7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial using Guid(8e48a96595df5904da1626980936ebf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4af923f1eb821bd6979497c575c9f996') in 0.0924585 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Old Sea Port/Materials/Canvas.mat
-  artifactKey: Guid(c9d71860ce2bd034b995e445a324944d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/Materials/Canvas.mat using Guid(c9d71860ce2bd034b995e445a324944d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c9c75d5632d0a84eb51c5392a75b7c0') in 0.0236454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/Scripts
-  artifactKey: Guid(bd22c1c7cfb6a0f469bbe1805930df50) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/Scripts using Guid(bd22c1c7cfb6a0f469bbe1805930df50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56df92f8113becb8d3f6c83534f73ed6') in 0.0049776 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Old Sea Port/prefabs
-  artifactKey: Guid(38dd436d41f0c70498471565e7694d61) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/prefabs using Guid(38dd436d41f0c70498471565e7694d61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1a2afbb19b6c975b981c844a15b67e1') in 0.0042473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Old Sea Port/mesh
-  artifactKey: Guid(0e2952b77591d60419ff08838a4e6c18) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/mesh using Guid(0e2952b77591d60419ff08838a4e6c18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0050ffa28e3f92636298075df482b2f6') in 0.0053262 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Tensori/SkinlessZombie/Demo/Night/Nightsky and Fog Settings Profile.asset
-  artifactKey: Guid(8c2059d73c4a84d4f847adc444d45671) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Demo/Night/Nightsky and Fog Settings Profile.asset using Guid(8c2059d73c4a84d4f847adc444d45671) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f5a0ed1f723c2f19029327017d2dc74') in 0.0104341 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials
-  artifactKey: Guid(d55d5882cc8028a459a0a5793070b388) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials using Guid(d55d5882cc8028a459a0a5793070b388) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e43a5c68e39125ffbb6136706968e91') in 0.0043955 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Prefabs
-  artifactKey: Guid(af557a47dae08a94cb2839384fe7ac98) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Prefabs using Guid(af557a47dae08a94cb2839384fe7ac98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ff0266bd3bd0823bd422dd06d8a7db3') in 0.0078905 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Old Sea Port/Materials/Brick Wall_2_Shiny.mat
-  artifactKey: Guid(5b8e306b8f1292a45b62cbb48b6d1467) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/Materials/Brick Wall_2_Shiny.mat using Guid(5b8e306b8f1292a45b62cbb48b6d1467) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3daa5a0cfeb075665dd78a86b455aa1c') in 0.0244429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tensori/SkinlessZombie/Art/Textures/Built-In
-  artifactKey: Guid(b79c122e47146fc47b2d20656a7b434f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Art/Textures/Built-In using Guid(b79c122e47146fc47b2d20656a7b434f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf7aac05b45c1cc7cd7ea80ac4897cc8') in 0.0052499 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Tensori/SkinlessZombie/Art
-  artifactKey: Guid(ecbbe9e63d0480446b9b5fc45756e6f2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Art using Guid(ecbbe9e63d0480446b9b5fc45756e6f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cf18c8a09619a9fdcd52972d1a5556b') in 0.0056653 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000032 seconds.
+  path: Assets/Old Sea Port/mesh/building_segment_3.fbx
+  artifactKey: Guid(b06924d9cdbb1574983828a10340bf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/building_segment_3.fbx using Guid(b06924d9cdbb1574983828a10340bf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '962cdc20acd8f6761d217ab0f853913e') in 0.0224023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000113 seconds.
-  path: Assets/Old Sea Port/Materials/Log_End_Shiny.mat
-  artifactKey: Guid(257e47870a41c144f895fd29184b1517) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/Materials/Log_End_Shiny.mat using Guid(257e47870a41c144f895fd29184b1517) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f864caf3c6e050c8bf5e81347e5cef69') in 0.0202656 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Old Sea Port/prefabs/ladder_1.prefab
-  artifactKey: Guid(c5d5f1d29f2e94e45b0022124ff1f27f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/prefabs/ladder_1.prefab using Guid(c5d5f1d29f2e94e45b0022124ff1f27f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b7dc0cdd2615deddcc44585fc2a8e92') in 0.053613 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/PlasmaExplosionParticle.mat
-  artifactKey: Guid(7ff1ab0b724442843965e2dd0f02e969) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/PlasmaExplosionParticle.mat using Guid(7ff1ab0b724442843965e2dd0f02e969) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59db161f2ca1f30f5b4aa4b226edc67e') in 0.028256 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Tensori
-  artifactKey: Guid(496ace70044d899449dfec5d1128f795) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori using Guid(496ace70044d899449dfec5d1128f795) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5efb1c9a1c594d60824a1a3aa397a64') in 0.0046482 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Old Sea Port/prefabs/mooring_rope_holder_2.prefab
-  artifactKey: Guid(18330cc3c640eb24b8c54a9b5f2e5f22) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/prefabs/mooring_rope_holder_2.prefab using Guid(18330cc3c640eb24b8c54a9b5f2e5f22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80aeb4dc4202d195caa584923b1e3f03') in 0.0160058 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/Prefabs/WaterFilled.prefab
-  artifactKey: Guid(b3310980331fa134d82770127f640471) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/Prefabs/WaterFilled.prefab using Guid(b3310980331fa134d82770127f640471) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '961194089f2409ac6a43968f84b2ff7a') in 0.0273208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Old Sea Port/prefabs/Wood Canopy.prefab
-  artifactKey: Guid(e1f2b1eef74191d45a6f5a76a5d45556) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/prefabs/Wood Canopy.prefab using Guid(e1f2b1eef74191d45a6f5a76a5d45556) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0187a2084886f773eeab90f87913e9d') in 0.0067095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/IgnitionFlameParticle.mat
-  artifactKey: Guid(f53f1a24bb4ef8f4d879ea7b3a5197e5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/IgnitionFlameParticle.mat using Guid(f53f1a24bb4ef8f4d879ea7b3a5197e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '240f070196f28b5e9e6a8e558f282a2d') in 0.0085109 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Old Sea Port/prefabs/fence_gate.prefab
-  artifactKey: Guid(5cd829d670d42cf458be57a99ad05bf4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/prefabs/fence_gate.prefab using Guid(5cd829d670d42cf458be57a99ad05bf4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8650939cf2ed626dd7e945005cc8523') in 0.0128015 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Old Sea Port/Materials/Cobblestone_Shiny.mat
-  artifactKey: Guid(b5ccf7076bf73e541a3e23897a2a3092) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/Materials/Cobblestone_Shiny.mat using Guid(b5ccf7076bf73e541a3e23897a2a3092) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8f7fe279f25c623d647d31d29a4e9d3') in 0.0117931 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Old Sea Port/Materials/Rooftiles_Shiny.mat
-  artifactKey: Guid(f952cb120c5a884458be2c0cef75425a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/Materials/Rooftiles_Shiny.mat using Guid(f952cb120c5a884458be2c0cef75425a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f170909397461c5084541417b8cd45ae') in 0.0095403 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/Materials/Background.mat
-  artifactKey: Guid(0ae8aab4ae40e7741a636cf6e5136a55) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/Materials/Background.mat using Guid(0ae8aab4ae40e7741a636cf6e5136a55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '052336ec4781e11f6869222dda008ce3') in 0.0082961 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Old Sea Port/Shaders/MFEP_Stream.shader
-  artifactKey: Guid(09216bdfd6523db4487ca393081c9eeb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/Shaders/MFEP_Stream.shader using Guid(09216bdfd6523db4487ca393081c9eeb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16f571504a6c007f564fdff125caccc5') in 0.0098805 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Old Sea Port/prefabs/barrel.prefab
-  artifactKey: Guid(e5da93bf3ff477c4f8f88f51e419c805) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/prefabs/barrel.prefab using Guid(e5da93bf3ff477c4f8f88f51e419c805) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a5dc814cd0d94555fcdf08174d5ff1e') in 0.010467 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tensori/SkinlessZombie/Art/Textures/URP
-  artifactKey: Guid(cc3300a2da796a649b121b536a0ad830) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Art/Textures/URP using Guid(cc3300a2da796a649b121b536a0ad830) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7868d05264c2885f348b3132f257b211') in 0.0045824 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Prop_Assets/Radio/Maps/showcase.unity
-  artifactKey: Guid(d16f41700342efb41abcc6f6db317d08) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Prop_Assets/Radio/Maps/showcase.unity using Guid(d16f41700342efb41abcc6f6db317d08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11e508dbb02a2dc873b88989f57874c7') in 0.0057341 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Audio/MasterMixer.mixer
-  artifactKey: Guid(47663ac2e85223a4494044348e81eef6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Audio/MasterMixer.mixer using Guid(47663ac2e85223a4494044348e81eef6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: '1bc583bc6bcb3d99b07b30699bf064b8') in 0.0309934 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prop_Assets/Radio/Prefabs
-  artifactKey: Guid(4244ee1d45b635c429cf38e823fe3ce0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Prop_Assets/Radio/Prefabs using Guid(4244ee1d45b635c429cf38e823fe3ce0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c66d3be66f3cf83c424c6df086554ad0') in 0.0041261 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Old Sea Port/Skyboxes
-  artifactKey: Guid(c5e3c35de11186b47b70b4e2e226ed3d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/Skyboxes using Guid(c5e3c35de11186b47b70b4e2e226ed3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa5e4b033e597b5765e8899610b5b1ef') in 0.0055526 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Old Sea Port/prefabs/Log_1.prefab
-  artifactKey: Guid(d76a78a721a5d9d499abc8aec19fdc8b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/prefabs/Log_1.prefab using Guid(d76a78a721a5d9d499abc8aec19fdc8b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2899c58eca4caac801367a894f668195') in 0.01003 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Old Sea Port/EffectExamples
-  artifactKey: Guid(6c0b056137d972f46a0312ba21b6263f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples using Guid(6c0b056137d972f46a0312ba21b6263f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35628e1b7a5ff16c5daceffe373f5f93') in 0.005619 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/Animation
-  artifactKey: Guid(8407a20867569fd49bddda21a451f43c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/Animation using Guid(8407a20867569fd49bddda21a451f43c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0249c69a1658e8eb203d5ff092415052') in 0.0040897 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures
-  artifactKey: Guid(b570582a843ea1143a2446d355eda99b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures using Guid(b570582a843ea1143a2446d355eda99b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35fe9323c0c38d8e12cdf6ff22d8c502') in 0.0043782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat
-  artifactKey: Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat using Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cefc72ead7a993c19a96954d9cd040d') in 0.0093578 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Old Sea Port/mesh/Materials/No Name.mat
-  artifactKey: Guid(d6705e750ff8c1c4db40906796700ddf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/mesh/Materials/No Name.mat using Guid(d6705e750ff8c1c4db40906796700ddf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fcdbc015f779d2928f95911518888ac7') in 0.0056705 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/FlameRoundYellowParticle.mat
-  artifactKey: Guid(d7f098ed9997e714193be5e86df013f4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/FlameRoundYellowParticle.mat using Guid(d7f098ed9997e714193be5e86df013f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eab0ff17e7a6435105e0757dc90de3c5') in 0.0099342 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Old Sea Port/mesh/crate_1.fbx
-  artifactKey: Guid(5be8634ccfcc74841a2130c8f8a656af) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/mesh/crate_1.fbx using Guid(5be8634ccfcc74841a2130c8f8a656af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f94d72fcf5d8a2382f2eaee3ed926880') in 0.0553843 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Old Sea Port/prefabs/brick_column_1.prefab
-  artifactKey: Guid(4154bf6e40fe42543a525d9b4fbc965f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/prefabs/brick_column_1.prefab using Guid(4154bf6e40fe42543a525d9b4fbc965f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe5326a4882069d171e508c833d6274b') in 0.0100281 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/Animation/Controllers/Gun.controller
-  artifactKey: Guid(2be2206e6d3865742a99fd2f946e6378) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/Animation/Controllers/Gun.controller using Guid(2be2206e6d3865742a99fd2f946e6378) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '745252ebc8625a7ef056ba0300d9f3e6') in 0.0064312 seconds
+  path: Assets/Old Sea Port/mesh/building_segment_5.fbx
+  artifactKey: Guid(57c2463eb8525a342959a81e4db49b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/building_segment_5.fbx using Guid(57c2463eb8525a342959a81e4db49b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5c9caa0b5b68c4d80bc8c9f8886b1bc') in 0.027695 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Tensori/SkinlessZombie/Art/Animations
-  artifactKey: Guid(33f351f06d11c5741b704a0480e8b8a4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Art/Animations using Guid(33f351f06d11c5741b704a0480e8b8a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c5c760c8033170335fd5f016d59115b') in 0.0049681 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Tensori/SkinlessZombie/Art/Mesh
-  artifactKey: Guid(6270bf297ae431941aa874e7f40bbfaf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Art/Mesh using Guid(6270bf297ae431941aa874e7f40bbfaf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfd00817485b0cc72c2b6f43733c706b') in 0.0037197 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Tensori/SkinlessZombie/Demo/Night/Night Volume.asset
-  artifactKey: Guid(7a0c53dd615de1e43812da562ae1c85d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Demo/Night/Night Volume.asset using Guid(7a0c53dd615de1e43812da562ae1c85d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f62f92dd469a5ebf092e9b0af12ccc1') in 0.0044025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat
-  artifactKey: Guid(43714b68324cc2c409d534d9874f2a2b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat using Guid(43714b68324cc2c409d534d9874f2a2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '847f1be3fa6ecb77841b84dd3dfd435c') in 0.0191118 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Tensori/SkinlessZombie/Demo/Night
-  artifactKey: Guid(747b677e42bdacf46b990f1c9b68be86) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Demo/Night using Guid(747b677e42bdacf46b990f1c9b68be86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0b8e2574bb9d73637ad98ebd54bc579') in 0.0045916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Old Sea Port/Materials/Bottle.mat
-  artifactKey: Guid(969ccceacfff9674590c23e0a52fb5ba) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/Materials/Bottle.mat using Guid(969ccceacfff9674590c23e0a52fb5ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c1c3ad49434768bc8ff44f84e4d029a') in 0.0064211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials
-  artifactKey: Guid(9bbcfdc39f51fee4a936aab8f83819f7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials using Guid(9bbcfdc39f51fee4a936aab8f83819f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba4f388054465248dd5861d964e9c5d7') in 0.0066331 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Prefabs/MainCamera.prefab
-  artifactKey: Guid(f6d148d888ffbf54b9afe9936dfaec1f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/MainCamera.prefab using Guid(f6d148d888ffbf54b9afe9936dfaec1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '532498db92d9bf8371a9862e712bbe4b') in 0.0205948 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/StarterAssets/Environment/RenderPipelineProfiles/StarterAssetsURPAsset.asset
-  artifactKey: Guid(f48f873ae78af40b9a7b8220a8c6f95f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/RenderPipelineProfiles/StarterAssetsURPAsset.asset using Guid(f48f873ae78af40b9a7b8220a8c6f95f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bafe30245958ca8a3b5f8f80fc0e339') in 0.0065308 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Old Sea Port/prefabs/crate_2.prefab
-  artifactKey: Guid(9f35541b213a65340a8e088b7f3ab551) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/prefabs/crate_2.prefab using Guid(9f35541b213a65340a8e088b7f3ab551) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06363a7d71587812c5705c983060de4b') in 0.0113098 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Old Sea Port/prefabs/post_1.prefab
-  artifactKey: Guid(5cf375f9208bd17468242e6d1c3cc819) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/prefabs/post_1.prefab using Guid(5cf375f9208bd17468242e6d1c3cc819) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '648ccf30dc5ffb0d81b1761f4bef357d') in 0.0107564 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Audio/BackgroundMusic
-  artifactKey: Guid(7ff8a16764efee0438ac02f41f5e8840) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Audio/BackgroundMusic using Guid(7ff8a16764efee0438ac02f41f5e8840) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7d7cc6d7bb22c69a52192ef730ca2e8') in 0.0045105 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Old Sea Port/Materials/rope.mat
-  artifactKey: Guid(247fd6fe4b10e444fae354baca12fe76) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/Materials/rope.mat using Guid(247fd6fe4b10e444fae354baca12fe76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79c1ddc69d9ded2603153a9509490c4a') in 0.0100867 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000031 seconds.
+  path: Assets/Old Sea Port/mesh/rope_3.fbx
+  artifactKey: Guid(cb1f6f82cc530a74c940352d001d34d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/rope_3.fbx using Guid(cb1f6f82cc530a74c940352d001d34d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b90df19fb954e20b96ea62528cc8d05') in 0.0268801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/SmokeDarkParticle.mat
-  artifactKey: Guid(698a8134f4ebbbd4e848648685f68067) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/SmokeDarkParticle.mat using Guid(698a8134f4ebbbd4e848648685f68067) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f83b5d7387bd4766f73e44a9e9496b8') in 0.0139995 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/Old Sea Port/mesh/building_segment_6.fbx
+  artifactKey: Guid(ceaf37662ffe76840a151e0bc5b366ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/building_segment_6.fbx using Guid(ceaf37662ffe76840a151e0bc5b366ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '442ba4cc2d1961270b8c04e0f52a2146') in 0.0281844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Old Sea Port/prefabs/mooring_rope_holder_1.prefab
-  artifactKey: Guid(88b977c6c0cb6f347a2b35f97b16cdc4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/prefabs/mooring_rope_holder_1.prefab using Guid(88b977c6c0cb6f347a2b35f97b16cdc4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c0d2214c6564efa5a6def39d34bd062') in 0.0101596 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+  Time since last request: 0.000060 seconds.
+  path: Assets/Old Sea Port/mesh/Wood Canopy.fbx
+  artifactKey: Guid(2fa7e1ef5baf7114593a7471e8065425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/Wood Canopy.fbx using Guid(2fa7e1ef5baf7114593a7471e8065425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '015309eb3588631daf7592cb6aa2ebb3') in 0.0649572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Prop_Assets/Radio/Textures
-  artifactKey: Guid(5ea564492a62b5f47bc2455be1055a06) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Prop_Assets/Radio/Textures using Guid(5ea564492a62b5f47bc2455be1055a06) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1fde13e40a6292d7d6f43e62c08f6cf') in 0.0054508 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Tensori/SkinlessZombie/Art/Textures/Built-In/builtIn.unitypackage
-  artifactKey: Guid(0592a544dab40d2418511e7a7a4a25f7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Art/Textures/Built-In/builtIn.unitypackage using Guid(0592a544dab40d2418511e7a7a4a25f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14792ab725e8fcb554bd359e3744752a') in 0.0071986 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/Materials/StoneSurface.mat
-  artifactKey: Guid(3eb079016c4106b41bc3f19de570f770) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/Materials/StoneSurface.mat using Guid(3eb079016c4106b41bc3f19de570f770) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e80843374508ca5fb666e1f7f84a7579') in 0.0117533 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Old Sea Port/Materials/Log_End.mat
-  artifactKey: Guid(fe229f20750599645b732bda3b0b539f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/Materials/Log_End.mat using Guid(fe229f20750599645b732bda3b0b539f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '184f470053fece0ddc21eeb100ed45e6') in 0.0193057 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Old Sea Port/mesh/Materials/Material.011.mat
-  artifactKey: Guid(9f2ee6c9acc86dc47bf4297b38842aa3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/mesh/Materials/Material.011.mat using Guid(9f2ee6c9acc86dc47bf4297b38842aa3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '733791a0a402b6ff623fa48c5505a571') in 0.0053256 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Tensori/SkinlessZombie/Resources/ScriptableObjects/Animations/Idle01.asset
-  artifactKey: Guid(328afadd6a125234a878895d64f2b63d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Resources/ScriptableObjects/Animations/Idle01.asset using Guid(328afadd6a125234a878895d64f2b63d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd71042874c3a10da95bced5811717e9b') in 0.0257757 seconds
+  Time since last request: 0.000118 seconds.
+  path: Assets/Old Sea Port/mesh/boat_2.fbx
+  artifactKey: Guid(21e831160f0c20a4abe945f214240beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/boat_2.fbx using Guid(21e831160f0c20a4abe945f214240beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0728bd9069d81dd58a2033455f2c5ff3') in 0.0673381 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Sand.physicMaterial
-  artifactKey: Guid(ee4bb0d1ce749cf44ac6dc2a56ad59f6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Sand.physicMaterial using Guid(ee4bb0d1ce749cf44ac6dc2a56ad59f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ebf5651de7667aed46fdaa4a4d2e85c') in 0.0062607 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/Old Sea Port/mesh/brick_tree_base.fbx
+  artifactKey: Guid(24862a2d9bb989949893146bd2d33428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/brick_tree_base.fbx using Guid(24862a2d9bb989949893146bd2d33428) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d26fdc70cc67acf9bb753ee5a93664d') in 0.024281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Old Sea Port/mesh/tower_extension.fbx
+  artifactKey: Guid(69aa8b9d7d649a14b937cf6e269319c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/tower_extension.fbx using Guid(69aa8b9d7d649a14b937cf6e269319c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87968d3f2f4aa8e1d348e12631d387be') in 0.014752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000066 seconds.
-  path: Assets/Old Sea Port/Materials/Brick Wall_1.mat
-  artifactKey: Guid(3ae387f88eaec6e408d8bd441dd9e934) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/Materials/Brick Wall_1.mat using Guid(3ae387f88eaec6e408d8bd441dd9e934) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e95e0879543acb2d89a65e4a706bd438') in 0.0151055 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  path: Assets/Old Sea Port/mesh/brick_wall_1.fbx
+  artifactKey: Guid(5b10a3532c8c3cc4da4dc079804cdf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/brick_wall_1.fbx using Guid(5b10a3532c8c3cc4da4dc079804cdf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '188e0714f365896b697c6a1cc5cf6412') in 0.0242039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/Fonts
-  artifactKey: Guid(478f74dba370047e1b323cb1a9a0af95) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/Fonts using Guid(478f74dba370047e1b323cb1a9a0af95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b04a25a4cc6911c7e905cb082c83df2c') in 0.0037304 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Tensori/SkinlessZombie/Art/Textures/URP/URP.unitypackage
-  artifactKey: Guid(a33f49a645e971f42aa500268fd75f67) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Art/Textures/URP/URP.unitypackage using Guid(a33f49a645e971f42aa500268fd75f67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8125c108a216cb144248e566639285a8') in 0.0050462 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Tensori/SkinlessZombie/Prefabs/skinless zombie.prefab
-  artifactKey: Guid(6a57508ea9f1a2e4ba69675cdd7361e3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Prefabs/skinless zombie.prefab using Guid(6a57508ea9f1a2e4ba69675cdd7361e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e1cc9654996fe54004c8baa46b9bdab') in 0.0310286 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 184
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Tensori/SkinlessZombie/Art/Materials/Axe.mat
-  artifactKey: Guid(393f33cc0361af64c9cc956e47ae18ba) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Art/Materials/Axe.mat using Guid(393f33cc0361af64c9cc956e47ae18ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17da37d50ab523cdf2ab53c2eca48038') in 0.0096744 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tensori/SkinlessZombie/Resources/ScriptableObjects/Animations
-  artifactKey: Guid(777e37bf8c1519d4195084c2f855e0ea) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Resources/ScriptableObjects/Animations using Guid(777e37bf8c1519d4195084c2f855e0ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ceb3d7cc011b12eac698a1ef0f8a4d9') in 0.0034688 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Old Sea Port/scenes/Dock Thing
-  artifactKey: Guid(e441219f8ee70f04897efe1918fd5d70) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/scenes/Dock Thing using Guid(e441219f8ee70f04897efe1918fd5d70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a1077c05e9424c3c644a59fd79568dd') in 0.0060659 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/StarterAssets/Environment/RenderPipelineProfiles/StarterAssetsURPGlobalSettings.asset
-  artifactKey: Guid(d075d680cccac4178aca7c82f2c05556) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/RenderPipelineProfiles/StarterAssetsURPGlobalSettings.asset using Guid(d075d680cccac4178aca7c82f2c05556) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '901f0f21e56bddeab5474dc7eeaebec8') in 0.0073749 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/Scripts/GunAim.cs
-  artifactKey: Guid(c63d71560c10e473ebc409185edd2c8c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/Scripts/GunAim.cs using Guid(c63d71560c10e473ebc409185edd2c8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7d958cd8b2ad98ac6c648f4d0c1ccb9') in 0.0060424 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Old Sea Port/mesh/Materials/Material.013.mat
-  artifactKey: Guid(12296096c5973b14196650212cdcc872) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/mesh/Materials/Material.013.mat using Guid(12296096c5973b14196650212cdcc872) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94a69494f4f5bcc3fa05f554c5e6bc0f') in 0.0053058 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Old Sea Port/scenes/Dock Thing_Profiles/Post-process Volume Profile_Old Sea Port.asset
-  artifactKey: Guid(c4272b84e8d2077489f21b1669082645) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/scenes/Dock Thing_Profiles/Post-process Volume Profile_Old Sea Port.asset using Guid(c4272b84e8d2077489f21b1669082645) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f1b8bbc3b3e37339fb63ab9837003ce') in 0.0063268 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/Materials/FleshSurface.mat
-  artifactKey: Guid(72bc6ef93dd24b24a92daaf12577d9f1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/Materials/FleshSurface.mat using Guid(72bc6ef93dd24b24a92daaf12577d9f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b6984ee58da837a2dec304ca0693b13') in 0.0074354 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prop_Assets/Radio/Materials/M_RadioP.mat
-  artifactKey: Guid(a216f56dc1c1d0a43b7e22eda6a6c9c9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Prop_Assets/Radio/Materials/M_RadioP.mat using Guid(a216f56dc1c1d0a43b7e22eda6a6c9c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f92ed5d4b43b51fae469ac6e26984811') in 0.022555 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/Prefabs/ParticlesLight.prefab
-  artifactKey: Guid(fa35d75604d172d48b7a6b62a07c7dbf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/Prefabs/ParticlesLight.prefab using Guid(fa35d75604d172d48b7a6b62a07c7dbf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f82adf4be0fb92313129b75bfc0c6111') in 0.034677 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005239 seconds.
-  path: Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/FlameParticle.mat
-  artifactKey: Guid(bd8c234372a08af408b82538314378fe) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/FlameParticle.mat using Guid(bd8c234372a08af408b82538314378fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2922144318002d6b9a3baf3916d0683c') in 0.008676 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Old Sea Port/Materials/planks.mat
-  artifactKey: Guid(4695bd902927e834c800f82e4cd6dbca) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/Materials/planks.mat using Guid(4695bd902927e834c800f82e4cd6dbca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd76bb55cb76659f9d110f4e0243d8e2') in 0.0117699 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/Prefabs/Wood.prefab
-  artifactKey: Guid(b6d38b5165f9b6e49a8402118b5237a1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/Prefabs/Wood.prefab using Guid(b6d38b5165f9b6e49a8402118b5237a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10706d732af72744831b8ee0e69e5f04') in 0.0174414 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+  Time since last request: 0.000025 seconds.
+  path: Assets/Old Sea Port/mesh/lamp_1.fbx
+  artifactKey: Guid(4ab325a57b9cd6a4a937fc4a13fc2ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/lamp_1.fbx using Guid(4ab325a57b9cd6a4a937fc4a13fc2ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1468e62ca10eba0d4a99548d89ce8714') in 0.026845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Old Sea Port/prefabs/tower_short.prefab
-  artifactKey: Guid(ad9456229c007a24ba9e3d21745ddb59) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/prefabs/tower_short.prefab using Guid(ad9456229c007a24ba9e3d21745ddb59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8682ffb1e7dc52a8d6751d2c81838d2e') in 0.0141575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec05df1d2355405b5463454bb09afc5a') in 0.0037332 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Tensori/SkinlessZombie/Art/Textures
-  artifactKey: Guid(6b60ca070e3065a4d8e5a51e0deaa0a9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Art/Textures using Guid(6b60ca070e3065a4d8e5a51e0deaa0a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '215166a4f1273b988d4fb3475614e700') in 0.0045008 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Old Sea Port/prefabs/building_segment_2.prefab
-  artifactKey: Guid(e2815925c4988c3438817c46d19d1b3f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/prefabs/building_segment_2.prefab using Guid(e2815925c4988c3438817c46d19d1b3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd02078ad404ddf3ace76d3ac6e886f7b') in 0.0109863 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tensori/SkinlessZombie/Prefabs
-  artifactKey: Guid(59208e86dfd631f49bd9a4d1b5163a89) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Prefabs using Guid(59208e86dfd631f49bd9a4d1b5163a89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08d80c13ee6b98518b4194bd73ada5fc') in 0.0043582 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial
-  artifactKey: Guid(77b2008fc6197f44a82570617d274355) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial using Guid(77b2008fc6197f44a82570617d274355) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80a7a20419d0ea8441ccf7f6c7365259') in 0.0061698 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Old Sea Port/mesh/brick_tree_base.fbm
-  artifactKey: Guid(fea684657c4acfa4dadf5e08c1eeb9e4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/mesh/brick_tree_base.fbm using Guid(fea684657c4acfa4dadf5e08c1eeb9e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51e031800cdd5896b9b224c9a90beeb9') in 0.0039721 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Arms.mat
-  artifactKey: Guid(766fd3ff04aab4745a764d33daac86fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Arms.mat using Guid(766fd3ff04aab4745a764d33daac86fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6831e638afa3eb2d255e266edd6e52a1') in 0.0173884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/ShockWaveParticle.mat
-  artifactKey: Guid(f88239865da4c79468e051ceb78c0317) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/ShockWaveParticle.mat using Guid(f88239865da4c79468e051ceb78c0317) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '469e75752893dd1e384e7a7ef2107be0') in 0.0058485 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/EmbersParticle.mat
-  artifactKey: Guid(776677ab3818fb249adaca05f4e04545) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials/EmbersParticle.mat using Guid(776677ab3818fb249adaca05f4e04545) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07fe340aa34a1df2226a519232fc6762') in 0.0073952 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Old Sea Port/prefabs/post_2.prefab
-  artifactKey: Guid(c8b19df230669df4eb91d90849f0c80a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/prefabs/post_2.prefab using Guid(c8b19df230669df4eb91d90849f0c80a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aab1142b10bbf92440884ad210314b2c') in 0.0091897 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Old Sea Port/Materials/Bark_Grey_Shiny.mat
-  artifactKey: Guid(76b27126339d3d041b24024587f42d55) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/Materials/Bark_Grey_Shiny.mat using Guid(76b27126339d3d041b24024587f42d55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9e62494da32693a6b90f0f6419a5596') in 0.0121267 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Old Sea Port/textures
-  artifactKey: Guid(8e2b73dbce04ae94fa8bdab263f278a6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/textures using Guid(8e2b73dbce04ae94fa8bdab263f278a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9582daa118408ac807761d0e56af2d9') in 0.0049376 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/Prefabs/Flesh.prefab
-  artifactKey: Guid(a7034287e2bd6a141ab896f71d0b1357) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/Prefabs/Flesh.prefab using Guid(a7034287e2bd6a141ab896f71d0b1357) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cea80a6817e483455eb34b7d77d756b9') in 0.0151541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Old Sea Port/Materials/Maple_bark_1.mat
-  artifactKey: Guid(3ec3880a04008dc48b888eeeca93007c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/Materials/Maple_bark_1.mat using Guid(3ec3880a04008dc48b888eeeca93007c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9221422639efb87f697b198fb648da83') in 0.0263285 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  path: Assets/Old Sea Port/mesh/mooring_rope_holder.fbx
+  artifactKey: Guid(2a6baaf4ee4ed4649a1c0c74be99a7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/mooring_rope_holder.fbx using Guid(2a6baaf4ee4ed4649a1c0c74be99a7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0715941b9b3365ff042ea0af040098da') in 0.024424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Tensori/SkinlessZombie/Demo Scripts
-  artifactKey: Guid(34d7b7d26153418409bd5cb9cd2a3d67) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tensori/SkinlessZombie/Demo Scripts using Guid(34d7b7d26153418409bd5cb9cd2a3d67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec770d43a8e5246b838c2d1d22207ef8') in 0.0041402 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/Old Sea Port/mesh/tower_short.fbx
+  artifactKey: Guid(bd57b9b38c2b9504fba073fc57c09738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/tower_short.fbx using Guid(bd57b9b38c2b9504fba073fc57c09738) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2707fc5360876d39666e09dcca5002d4') in 0.0109888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Old Sea Port/EffectExamples/Shared/Textures
-  artifactKey: Guid(c3222dd3c95a7844380be1a7d52f2441) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Old Sea Port/EffectExamples/Shared/Textures using Guid(c3222dd3c95a7844380be1a7d52f2441) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9bec3c9b95b509cb0ea65927beb1934') in 0.0034985 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000081 seconds.
+  path: Assets/Old Sea Port/mesh/crate_1.fbx
+  artifactKey: Guid(5be8634ccfcc74841a2130c8f8a656af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/crate_1.fbx using Guid(5be8634ccfcc74841a2130c8f8a656af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42f34974c1cb942152e791d7ef5c8534') in 0.0157468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Old Sea Port/mesh/post_1.fbx
+  artifactKey: Guid(8b50be6bc899b9140ad8ff1a5d587a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/post_1.fbx using Guid(8b50be6bc899b9140ad8ff1a5d587a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1861a97e345fff2cb299d91cb7a16b11') in 0.0125927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Old Sea Port/mesh/mooring_rope_holder_2.fbx
+  artifactKey: Guid(f74e57a5ad5640f4da5eb349ae178364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/mooring_rope_holder_2.fbx using Guid(f74e57a5ad5640f4da5eb349ae178364) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a8022b24f7486d7bce55e50d9ec21b6') in 0.0248196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Old Sea Port/mesh/building_segment_2.fbx
+  artifactKey: Guid(8bf66b04564362f459c70d380960818a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/building_segment_2.fbx using Guid(8bf66b04564362f459c70d380960818a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92d8c01d63ba0db4ab671fa48ea712f2') in 0.0103312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Old Sea Port/mesh/Old Sea Port_Tree.fbx
+  artifactKey: Guid(bc1283a4efa3cd647924ae2bca1f366a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sea Port/mesh/Old Sea Port_Tree.fbx using Guid(bc1283a4efa3cd647924ae2bca1f366a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e3507438727ef28c45529b165fb2750') in 0.0140878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
